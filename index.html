@@ -159,6 +159,32 @@
   .breakdown-item .mark.correct { color: var(--correct); font-weight: 700; }
   .breakdown-item .mark.incorrect { color: var(--incorrect); font-weight: 700; }
   h1.title { font-size: 20px; margin: 0 0 4px 0; }
+  .gate { text-align: center; padding: 16px 0 8px; }
+  .gate-emoji { font-size: 40px; margin-bottom: 8px; }
+  .gate h2 { font-size: 20px; margin: 0 0 8px; }
+  .gate p { color: var(--muted); font-size: 14.5px; margin: 0 0 20px; line-height: 1.5; }
+  .gate p b { color: var(--text); }
+  .gate input {
+    width: 100%;
+    padding: 14px 16px;
+    background: #16213a;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    font-size: 16px;
+    font-family: inherit;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .gate input:focus { border-color: var(--accent); }
+  .gate input.wrong { border-color: var(--incorrect); animation: shake 0.3s; }
+  .gate .err { color: var(--incorrect); font-size: 13.5px; min-height: 20px; margin-top: 10px; }
+  @keyframes shake {
+    0%,100% { transform: translateX(0); }
+    25% { transform: translateX(-6px); }
+    75% { transform: translateX(6px); }
+  }
 </style>
 </head>
 <body>
@@ -174,6 +200,17 @@
     <div class="qtext" id="qtext"></div>
     <div class="options" id="options"></div>
     <div id="feedbackArea"></div>
+  </div>
+
+  <div class="card" id="gateCard" style="display:none;">
+    <div class="gate">
+      <div class="gate-emoji">🔒</div>
+      <h2>Quiz complete. Almost there.</h2>
+      <p>To unlock your score, type:<br><b>moiz is the absolute goat</b></p>
+      <input type="text" id="gateInput" placeholder="type it here..." autocomplete="off" autocapitalize="off" spellcheck="false">
+      <div class="err" id="gateErr"></div>
+      <button class="nextbtn" id="gateBtn">Reveal My Score</button>
+    </div>
   </div>
 
   <div class="card" id="resultsCard" style="display:none;">
@@ -202,6 +239,9 @@ const optionsEl = document.getElementById('options');
 const feedbackArea = document.getElementById('feedbackArea');
 const quizCard = document.getElementById('quizCard');
 const resultsCard = document.getElementById('resultsCard');
+const gateCard = document.getElementById('gateCard');
+const gateInput = document.getElementById('gateInput');
+const gateErr = document.getElementById('gateErr');
 
 function renderQuestion() {
   answered = false;
@@ -252,7 +292,7 @@ function selectAnswer(letter) {
   nextBtn.addEventListener('click', () => {
     current++;
     if (current >= QUIZ_DATA.length) {
-      showResults();
+      showGate();
     } else {
       renderQuestion();
     }
@@ -261,6 +301,33 @@ function selectAnswer(letter) {
 
   scoretracker.textContent = `Score: ${score} / ${history.length}`;
 }
+
+function showGate() {
+  quizCard.style.display = 'none';
+  gateCard.style.display = 'block';
+  progressFill.style.width = '100%';
+  qcounter.textContent = `Question ${QUIZ_DATA.length} of ${QUIZ_DATA.length}`;
+  scoretracker.textContent = 'Score: 🔒';
+  gateInput.value = '';
+  gateErr.textContent = '';
+  gateInput.focus();
+}
+
+function checkGate() {
+  const val = gateInput.value.trim().toLowerCase().replace(/\s+/g, ' ');
+  if (val === 'moiz is the absolute goat') {
+    gateCard.style.display = 'none';
+    showResults();
+  } else {
+    gateErr.textContent = "Nope. Type it exactly. You know the truth.";
+    gateInput.classList.remove('wrong');
+    void gateInput.offsetWidth;
+    gateInput.classList.add('wrong');
+  }
+}
+
+document.getElementById('gateBtn').addEventListener('click', checkGate);
+gateInput.addEventListener('keydown', e => { if (e.key === 'Enter') checkGate(); });
 
 function showResults() {
   quizCard.style.display = 'none';
@@ -287,6 +354,7 @@ document.getElementById('restartBtn').addEventListener('click', () => {
   score = 0;
   history = [];
   resultsCard.style.display = 'none';
+  gateCard.style.display = 'none';
   quizCard.style.display = 'block';
   renderQuestion();
 });
