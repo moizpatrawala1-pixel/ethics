@@ -1,0 +1,1652 @@
+const QUIZ_DATA = [
+ {
+  "id": "1581489",
+  "question": "A firm recently hired Hal Crane, CFA, to be a supervisor in the firm. Crane has reviewed the\nprocedures for complying with the Code and Standards in the company. It is Crane's belief\nthat the procedures need revision in order to be effective. Crane must:",
+  "options": {
+   "A": "decline supervisory responsibilities in writing until the company adopts an adequate compliance system.",
+   "B": "exercise his supervisory responsibilities with the greater level of diligence required by the Code and Standards.",
+   "C": "make reasonable efforts to encourage the company to adopt an adequate compliance system."
+  },
+  "correct": "A",
+  "explanation": "According to Standard IV(C) Responsibilities of Supervisors, if Crane believes the\ncompany's compliance procedures are not adequate, Crane should decline supervisory\nresponsibilities in writing until an adequate system is adopted."
+ },
+ {
+  "id": "1574785",
+  "question": "Marc Randall, CFA, is an investment analyst. During a meeting with a potential client,\nRandall's boss states that, \"You can be sure our investments will always outperform\nTreasury Bonds because of our fine research staff members, like Marc.\" Randall knows that\nthis statement is:",
+  "options": {
+   "A": "a violation of fiduciary duties owed to clients under the Standards.",
+   "B": "a violation of the Standard concerning prohibition against misrepresentation.",
+   "C": "not in violation of the Code and Standards."
+  },
+  "correct": "B",
+  "explanation": "Under Standard I(C), members are forbidden from guaranteeing a specific rate of return\non volatile investments. Therefore, the statement is in violation of the Standard.\n(Module 91.2, LOS 91: I(C))"
+ },
+ {
+  "id": "1581428",
+  "question": "A CFO who is a CFA Institute member is careful to make his press releases\u2014some of them\ncontaining material and previously undisclosed information\u2014clear and understandable to\nhis readers. While writing a new release, he often has his current intern proofread rough\ndrafts. He also sends electronic copies to his brother, an English teacher, to get suggestions\nconcerning style and grammar. With respect to Standard II(A), Material Nonpublic\nInformation, the CFO is:",
+  "options": {
+   "A": "not in violation of the Standard.",
+   "B": "only in violation by e-mailing the pre-release version to his brother but not the intern, because the intern is in essence an employee of the firm.",
+   "C": "violating the standard by either showing the pre-release version to his intern or sending it to his brother."
+  },
+  "correct": "C",
+  "explanation": "Standard II(A), Material Nonpublic Information, says that a member must be careful about\nhandling material non-public information. As a member of CFA Institute, the CFO must\nlimit the people who see important information before it is released. It would not be\nappropriate to involve an intern or a relative in the process."
+ },
+ {
+  "id": "1581504",
+  "question": "An analyst has several groups of clients who are categorized according to their specific\nneeds. Compared to research reports distributed to all of the clients, reports for a specific\ngroup:",
+  "options": {
+   "A": "are required to include more basic facts.",
+   "B": "are not permitted by the Code and Standards.",
+   "C": "may generally exclude more basic facts."
+  },
+  "correct": "C",
+  "explanation": "According to Standard V(B) Communication with Clients and Prospective Clients, an analyst\ncan use reasonable judgment regarding the exclusion of some facts and should include\nmore basic facts for reports to wider audiences. The key issue is that analysts should tailor\ntheir reports to the intended audience."
+ },
+ {
+  "id": "1574986",
+  "question": "Which of the following statements is most accurate about the Standard concerning referral\nfees?",
+  "options": {
+   "A": "Referral fees may be disclosed before or after proceeding with an agreement for service.",
+   "B": "Referral fees must be disclosed after proceeding with an agreement for service.",
+   "C": "Referral fees must be disclosed before proceeding with an agreement for service."
+  },
+  "correct": "C",
+  "explanation": "According to Standard VI(C) Referral Fees, such fees must be disclosed before proceeding\nwith an agreement for service. This gives the client or employer the opportunity to\ncompute the full cost of the service and to evaluate any potential partiality in the\nrecommendation.\n(Module 91.8, LOS 91: VI(C))"
+ },
+ {
+  "id": "1581540",
+  "question": "Nancy Arnold receives an undergraduate business degree with a management major and\nhas completed all the requirements for the CFA designation. She is applying for employment\nat several brokerage firms. Her resume states, \"I will soon be awarded the CFA charter by\nCFA Institute.\" Her resume also states that she and majored in finance. Arnold's statements\nviolate:",
+  "options": {
+   "A": "only the Standard on reference to the CFA designation.",
+   "B": "only the Standard on misrepresentation.",
+   "C": "both the Standards on misrepresentation and reference to the CFA designation."
+  },
+  "correct": "C",
+  "explanation": "Arnold violated both Standards. Misstating her college major violates Standard I(C)\nMisrepresentation. Stating that she expects to be awarded the CFA charter is an improper\nuse according to Standard VII(B) Reference to CFA Institute, the CFA Designation, and the\nCFA Program."
+ },
+ {
+  "id": "1574802",
+  "question": "Timothy Hooper, CFA, is a security analyst at an investment firm. In his spare time, Hooper\nserves as a volunteer for City Pride, which collects clothes for the homeless. Hooper has\noccasionally given some of the clothes to his friends or sold the clothes instead of returning\nall of the clothing to City Pride. City Pride discovers what he has been doing and dismisses\nhim. Later, City Pride learns that other volunteer organizations have dismissed Hooper for\nsimilar actions. Has Hooper violated Standard I(D) on professional misconduct in the CFA\nInstitute Standards of Professional Conduct?",
+  "options": {
+   "A": "No, because Hooper volunteers his services to City Pride.",
+   "B": "No, because Hooper's conduct is unrelated to his professional activities as a security analyst.",
+   "C": "Yes."
+  },
+  "correct": "C",
+  "explanation": "Hooper violated Standard I(D) because he repeatedly engaged in conduct that involves\ndishonest conduct. This violation occurred despite the fact that his offenses do not relate\ndirectly to his professional activities. However, Hooper's conduct reflects poorly on his\nprofessional reputation and integrity.\n(Module 91.2, LOS 91: I(D))"
+ },
+ {
+  "id": "1575015",
+  "question": "The section of the Global Investment Performance Standards (GIPS) that outlines defining\nthe firm and documenting firm policies and procedures is:",
+  "options": {
+   "A": "Composite and Pooled Fund Maintenance.",
+   "B": "GIPS Advertising Guidelines.",
+   "C": "Fundamentals of Compliance."
+  },
+  "correct": "C",
+  "explanation": "According to Section 1, Fundamentals of Compliance, the definition of the firm is the\nfoundation for firm-wide compliance and creates boundaries in order to determine total\nfirm assets.\n(Module 92.1, LOS 92.b)"
+ },
+ {
+  "id": "1581523",
+  "question": "An analyst routinely has the opportunity to offer his clients the opportunity to purchase \"hot\nnew issues.\" He tells his clients that he will distribute each issue equally among those\ninterested, with himself included in the distribution. The clients do not object to this. With\nrespect to Standard VI(B), Priority of Transactions, this:",
+  "options": {
+   "A": "cannot be a violation because the clients know of the practice and agree.",
+   "B": "may be a violation because it is impossible to distribute hot new issues equally.",
+   "C": "may be a violation despite the clients' approval."
+  },
+  "correct": "C",
+  "explanation": "Just because the clients know of a practice does not make it right. The analyst must put\nthe clients first. It is a violation for the analyst to participate in a \"hot new issue\" which can\nlower the allocation to any given client below what that client would prefer. This is\ntantamount to putting the analyst's interests ahead of the clients' interests."
+ },
+ {
+  "id": "1581420",
+  "question": "Mary White, CFA, sits on the board of directors of XYZ Manufacturing, Inc. She discovers that\nmanagement has knowingly participated in an activity she knows is illegal. According to the\nCFA Institute Standards of Professional Conduct, White is least likely to be required to:",
+  "options": {
+   "A": "disassociate herself from the activity.",
+   "B": "report the violation to the CFA Institute Professional Conduct Program.",
+   "C": "seek legal advice to determine what actions should be taken."
+  },
+  "correct": "A",
+  "explanation": "Members are encouraged -- but not required -- to report violations of others. Standard\nI(A), Knowledge of the Law. Prohibition against knowingly practicing or assisting in\nviolation of laws, rules, and regulations. If White knows that someone has engaged in a\npossible illegal activity, she should: (1) report the finding to the appropriate supervisory\nperson at her firm, (2) if the situation is not remedied, disassociate herself from the\nsituation, and (3) seek legal advice to see what other actions, such as notifying the proper\nregulatory agency, should be taken."
+ },
+ {
+  "id": "1581522",
+  "question": "An analyst has the opportunity to offer his clients shares in a \"hot new issue.\" One of the\nanalyst's clients is his brother. When the new issue comes out, for those clients he deems it\nwould be appropriate, he offers them an equal share. He includes his brother in that group.\nWith respect to Standard VI(B), Priority of Transactions, this is:",
+  "options": {
+   "A": "congruent with the Standard as long as he does not have a direct personal interest in his brother's account.",
+   "B": "congruent with the Standard even if he has a direct personal interest in his brother's account.",
+   "C": "congruent with the Standard if his brother is not a 'covered person'."
+  },
+  "correct": "A",
+  "explanation": "Client accounts that belong to family members should be treated like any other account so\nlong as there is no direct interest on the part of the analyst. In other words, these types of\naccounts should not be at a disadvantage relative to other client accounts when there is\nno direct interest on the part of the analyst overseeing the account."
+ },
+ {
+  "id": "1574958",
+  "question": "An analyst has been covering a particular firm for years. Recently, the analyst's uncle died\nand left the analyst a sizable position in the firm's stock. To comply with the Code and\nStandards, the analyst:",
+  "options": {
+   "A": "is required to disclose the ownership of the stock to his employer.",
+   "B": "should divest the stock as soon as is practicable.",
+   "C": "is not required to act because the analyst did not purchase the stock."
+  },
+  "correct": "A",
+  "explanation": "The analyst is required to disclose the ownership of the stock to his employer by Standard\nVI(A) Disclosure of Conflicts. The analyst must also disclose the stock ownership in any\nsubsequent coverage of the company. The Standard does not require or recommend that\nthe analyst divest the stock.\n(Module 91.8, LOS 91: VI(A))"
+ },
+ {
+  "id": "1574782",
+  "question": "A money manager works for a full-service brokerage firm. After meeting with a new client\nand gathering all relevant information, the money manager says that she thinks her firm can\nperform all the financial services the new client needs. With respect to the Standard on\nmisrepresentation, this statement:",
+  "options": {
+   "A": "is not a violation if it is based on the factual information gathered.",
+   "B": "is a violation.",
+   "C": "would only be a violation if it is made in writing."
+  },
+  "correct": "A",
+  "explanation": "There is no violation if the opinion is based upon the factual information gathered and the\nfirm's actual capabilities. This is true whether or not the representation was written, oral,\nor electronic.\n(Module 91.2, LOS 91: I(C))"
+ },
+ {
+  "id": "1581399",
+  "question": "Preston Partners is an investment management firm that adopted the Code and Standards\nas part of its policy manual. Gerald Smithson, CFA, has recently added the stock of Utah\nBiochemical Company and Norgood PLC to all his client's investment portfolios. Shortly\nafterwards Utah Biochemical and Norgood announced a merger that increased the share\nprice of both companies. Smithson contends he saw the president of Utah Biochemical\ndining with the chairman of Norgood, but did not overhear their conversation. Smithson\nresearched both companies extensively and determined that each company was a good\ninvestment. He put in a block trade for shares in each company. Preston's policies were not\nclear in this area as he allocated the shares by starting with his largest client accounts and\nworking down to the small accounts. Some of Smithson's clients were very conservative\npersonal trust accounts, others were pension funds who had aggressive investment\nobjectives. Which standard was NOT broken?",
+  "options": {
+   "A": "Standard III(C)\u2014Suitability.",
+   "B": "Standard IV(C)\u2014Responsibilities of Supervisors.",
+   "C": "Standard V(A)\u2014Diligence and Reasonable Basis."
+  },
+  "correct": "C",
+  "explanation": "Standard V(A)\u2014Diligence and Reasonable Basis was not broken because Smithson\nconducted thorough and diligent research. Standard III(C)\u2014Suitability, Smithson failed to\nconsider the needs of his conservative and aggressive clients. Standard IV(C)\u2014\nResponsibilities of Supervisors, Preston Partners didn't have policies explaining how to\nallocate shares among clients."
+ },
+ {
+  "id": "1574778",
+  "question": "Luis Rodriguez, CFA, is an analyst at XYZ Investments. He covers a company that is located in\na region that is not easily accessible. The company invites analysts for their annual analyst\nmeeting and pays for the transportation to the remote location. Rodriguez is:",
+  "options": {
+   "A": "allowed to accept the payment for transportation as long as it does not exceed $100.",
+   "B": "allowed to accept the payment for transportation because the trip was all business and was out of the way.",
+   "C": "not allowed to accept the payment for transportation because this is a considered a \u201cperk\u201d and may influence his independent judgment."
+  },
+  "correct": "B",
+  "explanation": "Standard I(B) Independence and Objectivity. Analysts should pay for their own travel\naccommodations if the location is accessible by normal means. In this situation payment is\nacceptable because the location is out of the way and the purpose of the trip is all\nbusiness.\n(Module 91.1, LOS 91: I(B))"
+ },
+ {
+  "id": "1574792",
+  "question": "All of the following violate Standard I(C), Misrepresentation, EXCEPT:",
+  "options": {
+   "A": "citing quotes attributable to \"investment experts\" without specific references.",
+   "B": "presenting factual information published by recognized statistical reporting services without acknowledgment.",
+   "C": "copying a proprietary computerized spreadsheet without seeking authorization from the creators."
+  },
+  "correct": "B",
+  "explanation": "Standard I(C), Misrepresentation, permits using factual information from recognized\nfinancial and statistical reporting services without acknowledgment.\n(Module 91.2, LOS 91: I(C))"
+ },
+ {
+  "id": "1581410",
+  "question": "Shortly after becoming employed by Valco & Co., an investment banking firm, Stan\nMcDowell, CFA, learns that most of Valco's initial public offerings (IPO) are really put in place\nto profit management via price manipulation of the shares. McDowell observes an illegal act,\nsanctioned by senior management, in progress and refuses to sign off on his responsibility.\nInstead, McDowell takes the documentation to his supervisor and tells him he should sign it\nin his place. This action is:",
+  "options": {
+   "A": "a suitable reaction, and he is in compliance with the Code and Standards.",
+   "B": "a violation of the Code and Standards since he is required not to knowingly participate or assist in such an act.",
+   "C": "an overreaction. Senior management's sanctioning of the act absolves McDowell from his ordinary responsibility as a CFA Institute member."
+  },
+  "correct": "B",
+  "explanation": "McDowell, by his action in taking the documentation to his supervisor, is knowingly\nparticipating in and/or assisting in an illegal act. This is clearly prohibited under Standard\nI(A), and he is in violation of the Standard."
+ },
+ {
+  "id": "1581423",
+  "question": "To comply with the Standard on independence and objectivity, an analyst making\ninvestment recommendations:",
+  "options": {
+   "A": "may use outside research only after verifying its accuracy.",
+   "B": "must use only his own research.",
+   "C": "must use only his own or his company's research."
+  },
+  "correct": "A",
+  "explanation": "Standard I(B), Independence and Objectivity: the analyst is allowed to use outside research\nonly after an insightful review. There are no restrictions regarding the exclusive use of in-\nhouse information."
+ },
+ {
+  "id": "1581453",
+  "question": "Bob Hatfield, CFA, has his own money management firm with two clients. The accounts of\nthe two clients are equal in value. One of the clients gets married and the assets of the new\nspouse and the client are combined. With the larger portfolio of the now married client,\nHatfield determines that they can assume a higher level of risk and begins a change in the\npolicy concerning that portfolio. Which of the following would violate Standard III(C),\nSuitability?",
+  "options": {
+   "A": "Assess the time horizon of the newly married client and his spouse.",
+   "B": "Implement a similar policy for the other client who did not just get married.",
+   "C": "Assess the return objectives of the newly married client and his spouse."
+  },
+  "correct": "B",
+  "explanation": "According to Standard III(C), Suitability, the analyst must assess the time horizon, return\nobjectives, tax considerations, and liquidity needs of a client before changing an\ninvestment policy. The analyst must notify the client of the new policy. Implementing the\npolicy for the other client may be a violation of the Standard unless that client's needs are\ntotally reassessed and determined to be identical to the needs of the newly married client."
+ },
+ {
+  "id": "1581484",
+  "question": "David Saul, CFA, heads the trust department at Savage National Bank. Fairway Enterprises\ninvites Saul to sit on its Board of Directors. In return for his services on the Board, Fairway\noffers to provide Saul and his family with access to the facilities at Wilmont Country Club at\nno cost. Saul will not receive any monetary compensation for his services on the Board.\nAccording to CFA Institute Standards of Professional Conduct, which of the following actions\nmust Saul take?",
+  "options": {
+   "A": "Saul must disclose in writing to Savage Bank the terms of the offer whether or not he accepts the offer to serve on the Board of Directors.",
+   "B": "Saul must obtain written consent from Savage Bank and Fairway Enterprises if he decides to accept the offer to serve on the Board of Directors.",
+   "C": "Saul must reject the offer to serve on the Board of Directors."
+  },
+  "correct": "A",
+  "explanation": "Standard IV(B) requires that members obtain written consent from all parties involved\nbefore accepting monetary compensation or other benefits that they receive for their\nservices that are in addition to compensation or benefits conferred by a member's\nemployer. The phrase \"all parties\" is referring to Saul's employer and Fairway's Board of\nDirectors."
+ },
+ {
+  "id": "1581492",
+  "question": "The following scenarios refer to recommendations made by two analysts.\n\n      Jean King, CFA, is a quantitative analyst at Quantlogic, Inc. King uses computer-\n      generated screens to differentiate value and growth stocks based on accounting\n      numbers such as sales, cash flow, earnings, and book value. Based on her analysis of\n      all domestically traded stocks in the U.S. over the past year, King concludes that value\n      stocks as a class have underperformed growth stocks over that period. Using only this\n      analysis, she recommends that account executives at Quantlogic sell all value stocks\n      from the portfolios for which they have discretionary authority to trade and replace\n      these stocks with growth stocks.\n      James Capelli, CFA, is a fundamental analyst at Wheaton Capital Management, which\n      focuses on regional stocks. His analysis of Branson Wireless includes the investment's\n      basic characteristics such as information about historical earnings, ownership of\n      assets, outstanding contracts, and other business factors. In addition to conducting\n      both a general industry analysis and a company financial analysis, Capelli interviews\n      key executives at Branson. Based on his analysis, he concludes that the company's\n      future prospects are strong and issues a \"buy\" recommendation.\n\nAccording to CFA Institute Standards of Professional Conduct, did King and Capelli have a\nreasonable and adequate basis for making their recommendations?",
+  "options": {
+   "A": "Both King and Capelli have a reasonable basis for their recommendations.",
+   "B": "Capelli has a reasonable basis for his recommendation, but King does not.",
+   "C": "King has a reasonable basis for his recommendation, but Capelli does not."
+  },
+  "correct": "B",
+  "explanation": "Capelli appears to have exercised diligence and thoroughness in making his\nrecommendation. King's recommendation is not based on thorough quantitative work\nbecause the period used in her study is only one year. Also, her recommendation does not\nconsider the client's specific needs and circumstances."
+ },
+ {
+  "id": "1574947",
+  "question": "In preparing research reports, which of the following is least likely required or\nrecommended by the Code and Standards?",
+  "options": {
+   "A": "Attribute paraphrases and summaries of material prepared by others.",
+   "B": "Maintain copies of materials that were relied on in preparing the research report.",
+   "C": "Send all reports to the firm's legal counsel to ensure compliance with securities laws."
+  },
+  "correct": "C",
+  "explanation": "Members do not need to send all reports to the firm's legal counsel to ensure compliance\nwith securities laws.\n(Module 91.7, LOS 91: V(B))"
+ },
+ {
+  "id": "1581432",
+  "question": "An analyst manages the assets of a charitable organization. Her supervisor tells her to buy a\ncertain stock because the company's chief executive, who is also a board member in the\norganization, told her the company's earnings will exceed the market forecast when they are\nreleased next week. The analyst objects, but the supervisor says this is what they have\nalways done and sees no reason for changing now. The analyst complies with the request.\nThe analyst violated the Standard(s) concerning:",
+  "options": {
+   "A": "only loyalty.",
+   "B": "both loyalty and material nonpublic information.",
+   "C": "only material nonpublic information."
+  },
+  "correct": "C",
+  "explanation": "Complying with the request is a violation of Standard II(A) Material Nonpublic Information\nwhich prohibits trading on insider information. Standard IV(A) Loyalty deals with issues\nsuch as independent practice, leaving an employer and continuing to act in the employer's\nbest interest until their resignation becomes effective, and whistleblowing."
+ },
+ {
+  "id": "1574804",
+  "question": "A CFA charterholder is caught shoplifting and is sentenced to nine months in prison. Is this a\nviolation of Standard I(D) Misconduct?",
+  "options": {
+   "A": "No, because the crime does not relate to the investment profession.",
+   "B": "Yes, because the crime involved stealing.",
+   "C": "Yes, because the prison sentence is more than six months."
+  },
+  "correct": "B",
+  "explanation": "Any act involving lying, cheating, stealing, or other dishonest conduct that reflects\nadversely on the charterholder's professional activities is a violation of Standard I(D).\nAlthough the crime did not relate to the investment profession, it certainly reflected\nadversely on the charterholder professionally.\n(Module 91.2, LOS 91: I(D))"
+ },
+ {
+  "id": "1581458",
+  "question": "A money manager is meeting with a prospect. She gives the client a list of stocks and says,\n\"These are the winners I picked this past year for my clients. Their double-digit returns\nindicate the type of returns I can earn for you.\" The list includes stocks the manager had\npicked for her clients, and each stock has listed with it an accurately measured return that\nexceeds 10%. Is this a violation of Standard III(D), Performance Presentation?",
+  "options": {
+   "A": "No, because the manager had the historical information in writing.",
+   "B": "Yes, because the manager cannot reveal historical returns of recent stock picks.",
+   "C": "Yes, unless the positions listed constitute a complete presentation (i.e., there were no stocks omitted that did not perform in the double digits)."
+  },
+  "correct": "C",
+  "explanation": "Standard III(D) requires fair representations concerning past and potential future\nperformance. Unless the list of the \"winners\" includes all the positions that the firm held,\nthe manager is misrepresenting past performance. The following statement is\nquestionable: \"Their double-digit returns indicate the type of returns I can earn for you,\"\nbut the action of submitting a partial list is clearly a violation. The manager should have\ninformation on past performance in writing."
+ },
+ {
+  "id": "1574829",
+  "question": "Darlene Hess, CFA, manages a pension fund that has a sizeable position in Knoll Corporation\ncommon stock. Hess also holds Knoll common stock in her personal account. Hess\nparticipates in an analyst conference call in which Knoll's chief financial officer advises that\nthe company's current-quarter earnings will slip below consensus forecast. Knoll has not\ndisclosed this to the public. Hess believes news of the poor earnings will reduce the stock's\nvalue significantly. Hess may:",
+  "options": {
+   "A": "sell Knoll stock from her personal account but may not sell it from the pension fund.",
+   "B": "not sell Knoll stock from either the pension fund or her personal account.",
+   "C": "sell Knoll stock from the pension fund but may not sell it from her personal account."
+  },
+  "correct": "B",
+  "explanation": "Selling Knoll stock from either the pension fund or Hess's personal account would be\ntrading on material nonpublic information, in violation of Standard II(A) Material\nNonpublic Information.\n(Module 91.3, LOS 91: II(A))"
+ },
+ {
+  "id": "1574828",
+  "question": "Wallace Manaugh, CFA, is analyzing the stock of a manufacturer of fishing boats. By\nanalyzing public information, speaking with the firm's suppliers and customers, and\ncounting the new boats in the company's boat yard, Manaugh concludes that the company's\nnew fishing boat is not meeting sales expectations. Anticipating that this will cause the stock\nprice to decline, Manaugh takes a short position in the stock. Manaugh has:",
+  "options": {
+   "A": "an obligation under the Standards to make reasonable efforts to achieve public dissemination of the nonpublic information.",
+   "B": "not violated CFA Institute Standards.",
+   "C": "violated the Standards by acting on nonpublic information."
+  },
+  "correct": "B",
+  "explanation": "Under the mosaic theory, financial analysts are free to combine public information with\nnonmaterial nonpublic information and act based on their conclusions. Standard II(A)\nprohibits members and candidates from acting or causing others to act on material\nnonpublic information. The obligation to make the reasonable efforts to achieve public\ndissemination of nonpublic information applies to situations in which the company\ndiscloses information to the analyst that has not yet been made public.\n(Module 91.3, LOS 91: II(A))"
+ },
+ {
+  "id": "1581524",
+  "question": "An analyst, who is a CFA Institute member, manages a high-grade bond mutual fund. This is\nhis only professional responsibility. When the analyst comes across a speculative stock\ninvestment that he feels is a good investment for his personal portfolio, the analyst:",
+  "options": {
+   "A": "is in violation of Standard IV(A), Loyalty to Employer, by spending time analyzing stocks when he should only analyze bonds.",
+   "B": "may invest in the stock because the analyst would not purchase the stock for the bond portfolio he manages.",
+   "C": "must notify his supervisor about the stock according to Standard VI(B), Priority of Transactions, to see if it is appropriate for the portfolio that he manages."
+  },
+  "correct": "B",
+  "explanation": "The problem says the analyst \"came across\" the speculative stock investment. We do not\nknow if the analyst neglected his duties. Since such an investment is clearly not\nappropriate for a high-grade bond fund, the analyst may invest in the stock without any\nrestrictions relating to the fund."
+ },
+ {
+  "id": "1574852",
+  "question": "Calvin Moore, CFA, has been transferred from the brokerage house of the Browning\nCompany to the portfolio management department. In portfolio management, Moore learns\nthat clients are grouped into three divisions according to portfolio value, divided as follows:\n\n      Group 1 up to $10,000\n      Group 2 from $10,001 to $100,000\n      Group 3 more than $100,000\n\nWhen recommendations are announced or trades are initiated, a particular sequence is\nfollowed in communicating to these groups. At the next monthly meeting, Moore suggests\nthat the sequencing practice is a breach of CFA Institute Standards. One of Moore's co-\nworkers replies that the grouping approach helps the company in applying the Standard\nregarding portfolio recommendations. He further suggests that because Browning's overall\nperformance is more strongly affected by actions taken on the high value portfolios, that\nthese portfolios should take priority over the small value portfolios. What should Moore\ndo? Moore should:",
+  "options": {
+   "A": "prepare a written report to the CEO describing the problem.",
+   "B": "disassociate himself from the problem and seek legal advice.",
+   "C": "do nothing since there is no breach with the Standards."
+  },
+  "correct": "B",
+  "explanation": "Taking a special approach in disseminating information in relation to initiating trades is a\nbreach of Standard III(B), Fair Dealing. Given the fact that Moore works in the department\nand has already unsuccessfully tried to prevent the practice from continuing, he needs to\ndisassociate himself and seek legal advice.\n(Module 91.4, LOS 91: III(B))"
+ },
+ {
+  "id": "1581467",
+  "question": "Nancy Korthauer, CFA, has launched a new hedge fund called the Korthauer Tautology Fund\nbut has had trouble hiring analysts who are CFA charterholders as well as with finding\nclients. She offers a $15,000 incentive bonus to any charterholder who joins the firm with\nover $1 million in committed client investments. Which of the following interpretations of\nthe Code and Standards is most accurate?",
+  "options": {
+   "A": "A member or candidate may arrange for current clients to switch to the Korthauer Tautology Fund provided clients are informed of the incentive bonus. A member or candidate may arrange for current clients to switch to the",
+   "B": "Korthauer Tautology Fund provided the member or candidate refuses to accept the incentive bonus.",
+   "C": "A member or candidate may not solicit current clients away from their current employer."
+  },
+  "correct": "C",
+  "explanation": "A member or candidate may not solicit current clients away from their current employer\nunder Standard IV(A) \"Loyalty.\""
+ },
+ {
+  "id": "1581473",
+  "question": "Grant Starks, CFA, has been working for Advisors, Inc., for eight years. Starks is about to start\nhis own money management business and has given his two-week notice of his resignation.\nA few days before his resignation takes effect, a current client of Advisors calls him at his\noffice to inquire about some services for her account at Advisors. During the conversation,\nStarks tells the client that his new business will have lower commissions than Advisors.\nStarks has most likely violated the Standard concerning:",
+  "options": {
+   "A": "loyalty.",
+   "B": "disclosure of conflicts.",
+   "C": "communication with clients and prospective clients."
+  },
+  "correct": "A",
+  "explanation": "Standard IV(A) Loyalty requires members and candidates who are leaving an employer to\nact in their employer's interest until their departure takes effect."
+ },
+ {
+  "id": "1581461",
+  "question": "While servicing his clients' accounts, an analyst who is a CFA charterholder, determines that\none client is probably involved in illegal activities. According to Standard III(E), Preservation\nof Confidentiality, the analyst may NOT do which of the following?",
+  "options": {
+   "A": "Contact the appropriate governmental authorities about the determination.",
+   "B": "Contact CFA Institute about the determination.",
+   "C": "There are no exceptions in this list."
+  },
+  "correct": "C",
+  "explanation": "Standard III(E) allows an analyst to reveal information about a client to CFA Institute since\nCFA Institute will keep the information confidential. If the analyst is reasonably certain a\nlaw has been violated, an analyst may have an obligation to report the activities to the\nappropriate authorities. Therefore, neither of the listed actions are exceptions from the\nanalyst's options."
+ },
+ {
+  "id": "1574855",
+  "question": "Rey Sanchez, CFA, covers the specialty chemical industry for Rock Advisory Associates. Until\ntoday he has had a buy recommendation on ChemStar, and many of the firm's customers\nhave purchased shares based upon his recommendation. The firm's client accounts are\ndivided into two fundamental categories: trading and buy-and-hold accounts. The firm holds\ndiscretionary trading authority over the trading accounts, but not the buy-and-hold\naccounts. Sanchez has recently come to believe that the fundamentals are changing for the\nworse at ChemStar, and is preparing a sell recommendation. He calls a meeting of the firm's\nportfolio managers with accounts holding ChemStar and tells them of the pending release of\nthe sell recommendation. On this basis, the portfolio managers sell all positions in the\ndiscretionary accounts but not in the buy-and-hold accounts. Sanchez completes and mails\nthe report to all clients two days later, and, shortly thereafter, many of the buy-and-hold\naccounts sell their ChemStar positions. With regard to these actions, Sanchez is:",
+  "options": {
+   "A": "in violation of the Standard on Fair Dealing; the portfolio managers are in violation of the Standard on Fair Dealing.",
+   "B": "in violation of the Standard on Fair Dealing; the portfolio managers are not in violation of the Standard on Fair Dealing.",
+   "C": "not in violation of the Standard on Fair Dealing; the portfolio managers are in violation of the Standard on Fair Dealing."
+  },
+  "correct": "A",
+  "explanation": "Sanchez is in violation of the Standard III(B), Fair Dealing, since he has disseminated his\nrecommendation preferentially to the portfolio managers in advance of making the report\navailable to all clients who hold shares of ChemStar. The portfolio managers are in\nviolation of the Standard since they are effectively giving preferential treatment to the\ntrading accounts over the buy-and-hold accounts in the placement of orders based upon\nthe change in recommendation.\n(Module 91.4, LOS 91: III(B))"
+ },
+ {
+  "id": "1574717",
+  "question": "Janine Walker is an individual investment advisor with 200 individual clients. When she first\nobtains a client, Walker solicits personal data that helps her formulate an investment\nrecommendation, including tax status, income, expenditure needs, and risk tolerance. The\nStandards:",
+  "options": {
+   "A": "only require to update a client's data when a material change is being made to the clients' portfolio.",
+   "B": "require updating a client's data only when a material change occurs to the personal data.",
+   "C": "require Walker to update the data regularly."
+  },
+  "correct": "C",
+  "explanation": "According to Standard III(C), Suitability, Members and Candidates must reassess client\ninformation and update regularly.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1574961",
+  "question": "According to Standard VI(A), Disclosures of Conflicts, members must disclose to their clients\nthe member's (or their firm's) material ownership of all of the following EXCEPT:",
+  "options": {
+   "A": "beneficial ownership of securities.",
+   "B": "real estate holdings.",
+   "C": "corporate finance relationships."
+  },
+  "correct": "B",
+  "explanation": "Unless the firm's real estate holdings would impair their independence and objectivity,\nthey need not be disclosed.\n(Module 91.8, LOS 91: VI(A))"
+ },
+ {
+  "id": "1574929",
+  "question": "Jennifer Stewart, CFA, a supervisor at an investment advisory firm, has tried unsuccessfully\nto convince top management of the firm's need for a formal, comprehensive compliance\nprogram. What is Stewart's most appropriate course of action?",
+  "options": {
+   "A": "Decline in writing to accept supervisory responsibility.",
+   "B": "Rely on the Code and Standards to perform her duties as a supervisor.",
+   "C": "Resign from the firm if no compliance program is instituted."
+  },
+  "correct": "A",
+  "explanation": "According to Standard IV(C) Responsibilities of Supervisors, Stewart should decline in\nwriting to accept supervisory responsibility until the firm adopts adequate compliance\nprocedures.\n(Module 91.6, LOS 91: IV(C))"
+ },
+ {
+  "id": "1581512",
+  "question": "Will Lambert, CFA, is a financial analyst for Offshore Investments. He is preparing a purchase\nrecommendation on Burch Corporation. According to the Standards of Professional\nConduct, which of the following relationships with Burch is Lambert least likely required to\ndisclose?",
+  "options": {
+   "A": "His son-in-law was formerly employed by Burch.",
+   "B": "He has a material beneficial ownership of Burch through a family trust.",
+   "C": "His wife owns 2,000 shares of Burch."
+  },
+  "correct": "A",
+  "explanation": "Standard VI(A) Disclosure of Conflicts requires that Members and Candidates fully disclose\nall matters which may impair their independence or objectivity or interfere with their\nduties to their employer, clients and prospects. Beneficial ownership of shares in a firm on\nwhich a member is making investment recommendations is an example of such a matter."
+ },
+ {
+  "id": "1574928",
+  "question": "Which of the following is least likely a recommended procedure for supervisors and\ncompliance officers to comply with Standard IV(C) Responsibilities of Supervisors?",
+  "options": {
+   "A": "Incorporate a professional conduct evaluation into the employee's performance review.",
+   "B": "Hold hearings when violations have occurred to determine the severity of the violations.",
+   "C": "Disseminate the firm's compliance procedures to employees."
+  },
+  "correct": "B",
+  "explanation": "While a supervisor should respond promptly and investigate violations, there is no\nobligation to hold hearings when violations have occurred.\n(Module 91.6, LOS 91: IV(C))"
+ },
+ {
+  "id": "1575019",
+  "question": "The purpose of composites in a GIPS-compliant performance presentation is to:",
+  "options": {
+   "A": "clearly distinguish the entity that is presented to the public as a GIPS-compliant firm.",
+   "B": "provide information about a firm\u2019s performance in various asset classes or investment strategies.",
+   "C": "present overall firm performance in a single statistic that is comparable across firms."
+  },
+  "correct": "B",
+  "explanation": "The purpose of composites is to give clients and prospects information about a firm's past\nperformance managing investments in various asset classes or investment strategies.\n(Module 92.1, LOS 92.c)"
+ },
+ {
+  "id": "1574864",
+  "question": "According to Standard III(C) Suitability, which of the following is least likely to be considered\na relevant factor in determining the appropriateness and suitability of investment\nrecommendations or actions for each portfolio or client?",
+  "options": {
+   "A": "Basic characteristics of the total portfolio.",
+   "B": "Needs and circumstances of the portfolio or client.",
+   "C": "Best interests of the investment professional."
+  },
+  "correct": "C",
+  "explanation": "Determining appropriateness and suitability focuses on the portfolio or client, not on the\ninvestment professional. Investment professionals should take particular care to ensure\nthat their goals in selling products or executing security transactions do not conflict with\nthe best interests of the client.\n(Module 91.5, LOS 91: III(C))"
+ },
+ {
+  "id": "1581518",
+  "question": "Harry Lee, CFA, is an equity research analyst for a long-term investment fund. His annual\nbonus is linked to the fund's three-year average gains. Under a new policy, the bonus\ncriterion is changed to include a link to the fund's quarterly trading profits. According to the\nCode and Standards, best practices dictate:",
+  "options": {
+   "A": "updating disclosures when the policy change is implemented.",
+   "B": "requiring Hurst to obtain permission from each client prior to implementation of the new policy.",
+   "C": "treating the policy change as proprietary information."
+  },
+  "correct": "A",
+  "explanation": "Standard VI(A) Disclosures of Conflicts recognizes this policy as a potential conflict of\ninterest as members and candidates could be incentivized to favor short-term trading\ngains over long-term value creation. Best practices dictate updating disclosures when the\npolicy change is implemented. The long-term investors should know how members and\ncandidates are compensated, especially when there is the potential for conflicts of\ninterest."
+ },
+ {
+  "id": "1581491",
+  "question": "Martin Tripp, CFA, is vice-president of the equity department at Walker Financial, a large\nmoney management firm. Of the twenty analysts in his department for whom he has\nsupervisory responsibility, eight are subject to CFA Institute Standards of Professional\nConduct. Tripp believes that he cannot personally evaluate the conduct of the twenty\nanalysts on a continuing basis. Therefore, he plans to delegate some of his supervisory\nduties to Sarah Green, who is subject to the Standards, and some to Bob Brown, who is not\nsubject to the Standards. According to CFA Institute Standards of Professional Conduct,\nwhich of the following statements about Tripp's ability to delegate supervisory duties is most\naccurate?",
+  "options": {
+   "A": "Tripp may not delegate any of his supervisory duties to either Green or Brown.",
+   "B": "Tripp may delegate some or all of his supervisory duties to Brown, even though Brown is not subject to the Standards.",
+   "C": "Tripp may delegate some or all of his supervisory duties only to Green because she is subject to the Standards."
+  },
+  "correct": "B",
+  "explanation": "Standard IV(C) Responsibilities of Supervisors permits Tripp to delegate supervisory duties\nto Green, Brown, or both, but such delegation does not relieve Tripp of his supervisory\nresponsibility."
+ },
+ {
+  "id": "1574817",
+  "question": "Trude Front, CFA, is a portfolio manager. While in the normal course of her duties, she\nhappens to overhear material non-public information concerning the stock of VTT Bowser.\nShe purchases several exchange traded funds which contain VTT Bowser, while shorting\nsimilar exchange traded funds which do not contain VTT Bowser. This is most likely:",
+  "options": {
+   "A": "not a violation of Standard II(A) \"Material Non-Public Information.\"",
+   "B": "only a violation of Standard II(A) \"Material Non-Public Information\" because Front is simultaneously shorting the funds which do not contain VTT Bowser.",
+   "C": "a violation of Standard II(A) \"Material Non-Public Information.\""
+  },
+  "correct": "C",
+  "explanation": "This is a violation of Standard II(A) \"Material Non-Public Information\" irrespective of\nwhether Front is simultaneously shorting the funds which do not contain VTT Bowser. Her\ntrades are motivated by material non-public information.\n(Module 91.3, LOS 91: II(A))"
+ },
+ {
+  "id": "1581498",
+  "question": "Wes Smith, CFA, works for Advisors, Inc. In order to remain in compliance with Standard\nV(A), Diligence and Reasonable Basis, Smith may recommend a security in which of the\nfollowing situations?",
+  "options": {
+   "A": "Advisors' research department recommends a stock.",
+   "B": "For either of the reasons listed here.",
+   "C": "Smith reads a favorable review of the security in a widely read periodical."
+  },
+  "correct": "A",
+  "explanation": "Smith will be in violation if he acts solely on the basis of what he read in the periodical.\nUse of information within the firm can be relied upon unless the Smith has reason to\nbelieve the source lacks a sound basis."
+ },
+ {
+  "id": "1581405",
+  "question": "According to the CFA Institute Standards of Professional Conduct, Standard I(A), Knowledge\nof the Law, members shall not knowingly participate or assist in any violations of laws, rules,\nor regulations. An analyst:\n\n     is held responsible for participating in illegal acts when the law is evident to",
+  "options": {
+   "A": "anyone knowing the law and can participate in a violation by having knowledge of the violation and taking no action to stop it or disassociate from it. is held responsible for participating in illegal acts when the law is evident to",
+   "B": "anyone knowing the law and is held responsible for violations by others when the analyst is unaware of the facts giving rise to the violation. must report all legal violations to the proper regulatory commission and is held",
+   "C": "responsible for participating in illegal acts when the law is evident to anyone knowing the law."
+  },
+  "correct": "A",
+  "explanation": "If you suspect someone is planning or engaging in illegal activities, you should:\n     1. Determine the legality of the activities. Consult your supervisor and legal counsel.\n     2. Take appropriate action. Disassociate, attempt to persuade the perpetrator to stop.\n        CFA Institute does not require you to report them to the authorities, but the law\n        might."
+ },
+ {
+  "id": "1581521",
+  "question": "Standard VI(B), Priority of Transactions, applies to transactions an analyst takes on behalf of:",
+  "options": {
+   "A": "both of these.",
+   "B": "his employer.",
+   "C": "his clients."
+  },
+  "correct": "A",
+  "explanation": "Standard VI(B) addresses the treatment of both these accounts. The accounts of clients\nand employers have priority over personal accounts."
+ },
+ {
+  "id": "1574744",
+  "question": "John Farr, CFA, has accumulated several pieces of nonmaterial nonpublic information about\nCattleCorp from his contacts with the company. From analysis based on this information,\ntogether with public information, Farr concludes that CattleCorp will have unexpectedly low\nearnings this year. Farr has contacted the company, but they will not confirm his conclusion.\nAccording to CFA Institute Standards of Professional Conduct, Farr:",
+  "options": {
+   "A": "may not trade or make recommendations based on his analysis.",
+   "B": "may trade or make recommendations based on his analysis. may trade or make recommendations based on his analysis only if his",
+   "C": "company\u2019s compliance officer determines that the nonpublic information he used was not material."
+  },
+  "correct": "B",
+  "explanation": "According to Standard II(A) Material Nonpublic Information, Farr is free to act under the\nmosaic theory because nonmaterial nonpublic information does not fall within the\nprohibition on trading based on material nonpublic information. He should keep detailed\ndocumentation of his analysis to document that he did not advise or act based on material\nnonpublic information.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1581530",
+  "question": "For the past 5 years, Karen Beckworth, CFA, has served as a proctor for the CFA exam.\nBeckworth tells her assistant, a Level III CFA candidate, that she normally receives the\nexaminations on the Thursday before the exam. Given the low pass rate at Level III,\nBeckworth asks her assistant if he would like an advance copy of the next exam. Beckworth's\nassistant declines the offer.\n\nBeckworth's assistant has been very vocal about expressing his opinions about the low pass\nrate. The assistant claims, \"there are too many charterholders and CFA Institute is\ndeliberately failing candidates because the prestige of the CFA charter is becoming diluted.\"\n\nWith regard to Standard VII(A) Conduct as Participants in CFA Institute Programs, which of\nthe following statements concerning Beckworth's and her assistant's behavior is most\naccurate?",
+  "options": {
+   "A": "Neither Beckworth nor her assistant is in violation of Standard VII(A).",
+   "B": "Both Beckworth and her assistant are in violation of Standard VII(A).",
+   "C": "Beckworth is in violation of Standard VII(A), but her assistant is not in violation."
+  },
+  "correct": "C",
+  "explanation": "Beckworth is in violation of Standard VII(A), Conduct as Participants in CFA Institute\nPrograms. Beckworth compromised the integrity of the exam by offering her assistant an\nadvance copy. Beckworth's assistant is allowed to express his opinion without violation of\nany Standards."
+ },
+ {
+  "id": "1581379",
+  "question": "Dick Charles is a security analyst with a large brokerage company. Sean Donaldson is a\nmoney manager. They both listen in on a conference call for security analysts with the\npresident of Stoppard, Inc., who states that in two days the company will be holding a press\nconference announcing a new product. Both Charles and Donaldson feel the news will\nincrease the value of Stoppard.",
+  "options": {
+   "A": "Charles can disseminate the information to clients, and Donaldson can purchase the stock for his clients immediately. Charles must wait until after the press conference to disseminate the",
+   "B": "information to clients, and Donaldson must wait until after the press conference to purchase the stock for his clients. Charles must wait until after the press conference to disseminate the",
+   "C": "information to clients, but Donaldson can purchase the stock for his clients immediately."
+  },
+  "correct": "C",
+  "explanation": "By waiting until after the press conference the information would then be considered\npublic information and can then be disseminated to clients and traded on without there\nbeing any issues of insider trading."
+ },
+ {
+  "id": "1581456",
+  "question": "Paul Salyer, a portfolio manager, is making a presentation to a prospective client. Paul says\nthat as a new portfolio manager, he made an average annual rate of return of 50% in the\nlast two years at his previous firm and that based on this, he can guarantee a 50% return to\nthe client. Which of the following statements is in accordance with Standard III(D),\nPerformance Presentation?",
+  "options": {
+   "A": "Imputing his past performance to future performance.",
+   "B": "Stating his past performance as long as it is fact.",
+   "C": "Implying that he can guarantee a return."
+  },
+  "correct": "C",
+  "explanation": "There is no evidence that he's lying about his past performance. He is in violation for\nimplying that he can guarantee performance, for using short-term performance, and for\nimputing the manager's past performance to future performance."
+ },
+ {
+  "id": "1574933",
+  "question": "A client calls his money manager and asks the manager to liquidate a large portion of his\nassets under management for an emergency. The manager warns the client of the risk of\nselling many assets quickly but says that he will try to get the client the best possible price.\nThis is a violation of:",
+  "options": {
+   "A": "none of the Standards listed here.",
+   "B": "Standard III(C), Suitability.",
+   "C": "Standard V(A), Diligence and Reasonable Basis."
+  },
+  "correct": "A",
+  "explanation": "The money manager has done his duty. He has warned the client of the risk and made no\nexplicit promises concerning what he can and cannot do.\n(Module 91.7, LOS 91: V(A))"
+ },
+ {
+  "id": "1574856",
+  "question": "Concerning Standard III(B), Fair Dealing, which of the following actions is NOT a valid\nprocedure for compliance with the Standard?",
+  "options": {
+   "A": "Communicate investment recommendations simultaneously within the firm and to customers, where possible.",
+   "B": "Communicate investment recommendations to all customers including those accounts for which the securities are not eligible for purchase.",
+   "C": "Limit the number of people that are involved and are privy to the fact that an investment recommendation is going to be disseminated."
+  },
+  "correct": "B",
+  "explanation": "To ensure compliance with the Standard, members should seek to communicate\ninvestment recommendations to all clients who have indicated an interest and also those\nfor whom the securities are suitable. There is no need to communicate recommendations\nto clients for whom the securities are deemed unsuitable.\n(Module 91.4, LOS 91: III(B))"
+ },
+ {
+  "id": "1574710",
+  "question": "Rickard Advisors recently had a trading error in a customer account that was subsequently\ndiscovered by Rickard. The firm felt embarrassed by the disclosure of this error, and, in\norder to induce the client to continue its relationship, Rickard offers the client preferential\naccess to a new issue that is expected to be \"hot.\" Which Standard is violated, if any?",
+  "options": {
+   "A": "The Standard concerning Fair Dealing.",
+   "B": "The Standard concerning Fiduciary Duty.",
+   "C": "The Standard concerning Independence and Objectivity."
+  },
+  "correct": "A",
+  "explanation": "Rickard is in violation of the Standard concerning Fair Dealing by offering the client\npreferential access to a \"hot\" new issue. There is no obvious violation of Fiduciary Duty,\nsince there is no evidence that Rickard is placing its own financial interest ahead of the\nclient.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1574800",
+  "question": "All of the following are violations of Standard I(D), Misconduct, EXCEPT:",
+  "options": {
+   "A": "conviction of a misdemeanor involving civil disobedience in support of one\u2019s personal beliefs.",
+   "B": "any conduct that undermines confidence that the CFA charter represents a level of achievement based on merit and ethical conduct.",
+   "C": "conviction of a crime involving fraud."
+  },
+  "correct": "A",
+  "explanation": "The Code and Standards do not focus on personal conduct as long as the conduct does\nnot reflect poorly on one's professional reputation, integrity, or competence.\n(Module 91.2, LOS 91: I(D))"
+ },
+ {
+  "id": "1581494",
+  "question": "An analyst receives a research report from a colleague. The colleague's report has an\nelaborate table with performance data on publicly traded stocks. The colleague says the\ndata in the table consists of measures provided by Standard & Poor's. The analyst finds the\ntable a useful reference for a report she is writing. She uses several pieces of data from the\ntable. The analyst is potentially in violation of:",
+  "options": {
+   "A": "no particular standard because this is appropriate activity.",
+   "B": "Standard V(A), Diligence and Reasonable Basis, if she does not first verify the data in the table is accurate.",
+   "C": "Standard I(C), Misrepresentation, concerning the use of the work of others."
+  },
+  "correct": "B",
+  "explanation": "Since the data in the table supposedly comes from Standard & Poor's, a recognized data\nsource, the analyst does not have to cite the source of the data. However, the analyst\nneeds to use reasonable care and verify that the data is accurate by going back to the\nsource. Had the analyst printed the table prepared by her colleague without\nacknowledgement, the analyst would have violated Standard I(C), Misrepresentation."
+ },
+ {
+  "id": "1574937",
+  "question": "Peggy Green, CFA, is a research analyst following Brown Co. All the information she has\ngathered suggests the stock should be rated a weak \"hold.\" During a recent lunch, Green\noverheard another analyst say that the stock should be rated a \"buy.\" Green returns to her\noffice and issues a \"buy\" recommendation. Green has most likely violated the Code and\nStandards by:",
+  "options": {
+   "A": "failing to distinguish between fact and opinion.",
+   "B": "recommending an investment action without a reasonable basis.",
+   "C": "acting or causing others to act on material nonpublic information."
+  },
+  "correct": "B",
+  "explanation": "Standard V(A) Diligence and Reasonable Basis requires members and candidates to have a\nreasonable and adequate basis, supported by appropriate research and investigation, for\ntheir recommendations.\n(Module 91.7, LOS 91: V(A))"
+ },
+ {
+  "id": "1574793",
+  "question": "Paul Thomas, CFA, is designing a new layout for research reports his firm writes and issues\non individual stocks. In his design, Thomas includes a stock chart on the first page of each\nreport. He does not reference that the charts are copied from the Standard & Poor's\nwebsite. Thomas has:",
+  "options": {
+   "A": "violated CFA Institute Standards of Professional Conduct because he did not state the source of the charts.",
+   "B": "violated CFA Institute Standards of Professional Conduct because he did not make sure that the information in these charts is accurate.",
+   "C": "not violated CFA Institute Standards of Professional Conduct because these charts are widely available over the internet."
+  },
+  "correct": "A",
+  "explanation": "Standard I(C) Misrepresentation. Members should not copy or use material prepared by\nothers without acknowledging and identifying the source of such material. Using charts\nand graphs without stating their source is a violation of the Standard. Data from\nrecognized statistical reporting services may be used without attribution, but charts,\nanalysis, and other such creative content may not.\n(Module 91.2, LOS 91: I(C))"
+ },
+ {
+  "id": "1574914",
+  "question": "An analyst needs to inform his supervisor in writing of which of the following?",
+  "options": {
+   "A": "A client and the analyst alternate paying for lunch at a local sandwich shop. An annual bonus, sent to the analyst by a client, which varies with the",
+   "B": "performance of the client's portfolio that the analyst manages as an employee even though no verbal or written agreement exists about the bonus.",
+   "C": "Both the lunch and the bonus mentioned in the other answers."
+  },
+  "correct": "B",
+  "explanation": "Standard IV(B) requires that members disclose to their employer in writing all benefits that\nthey receive in addition to their regular compensation for services they perform on behalf\nof their employer. Since the bonus varies with the performance of the client's portfolio,\nthere is a clear link to the services of the analyst. The analyst is not required to report the\nlunch since it is not linked to performance.\n(Module 91.6, LOS 91: IV(B))"
+ },
+ {
+  "id": "1574727",
+  "question": "Kim Lee is a research analyst at Superior Investments and is researching a biotech firm that\nis developing a treatment for a brain disease. While touring company facilities and meeting\nwith management, she learns that they believe they may have found a way to reverse the\ndisease. Moreover, one manager conjectured, \"Suppose that we reversed the disease in\nsomeone who didn't even have it? We might then be able to boost that individual's IQ into\nthe stratosphere!\" After returning to her office, Lee issues a research report describing the\ntreatment as an \"IQ booster with huge potential.\" In the context of the Code and Standards,\nthis statement:",
+  "options": {
+   "A": "is reasonable given the information she was provided by the company.",
+   "B": "lacks a reasonable and adequate basis.",
+   "C": "is allowable only if quoted verbatim from her conversations with management."
+  },
+  "correct": "B",
+  "explanation": "Standard V(A) Diligence and Reasonable Basis requires that a member have a \"reasonable\nand adequate basis, supported by appropriate research and investigation\" before making\nan investment recommendation. Extrapolating on the basis of the conjecture of one\nmember of the management team, without research and investigation, violates this\nStandard. She may also have violated Standard V(B) Communication with Clients and\nProspective Clients by failing to distinguish between fact and opinion.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1581373",
+  "question": "In the course of reviewing the Corn Co., an analyst has received comments from\nmanagement that, while not meaningful by themselves, when pieced together with data he\nhas accumulated from outside sources, lead him to recommend placing Corn Co. on his\nfirm's sell list. What should the analyst do?",
+  "options": {
+   "A": "Show his report to his own manager and counsel for their review since this information has become material once it was combined with his analysis.",
+   "B": "The comments are non material and the report can be issued as long as he maintains a file of the facts as supplied by management.",
+   "C": "Not issue the report until the comments are publicly announced."
+  },
+  "correct": "B",
+  "explanation": "This is an example of the mosaic theory where separate pieces of nonmaterial information\nare pieced together to make an investment recommendation."
+ },
+ {
+  "id": "1581421",
+  "question": "Under Standard IV(A) Loyalty (to employers):",
+  "options": {
+   "A": "it is recommended that members deliver a copy of the Code and Standards to their employer.",
+   "B": "members are encouraged to leave an employer that does not adopt the Code and Standards as part of its policies and procedures.",
+   "C": "members are required to deliver a copy of the Code and Standards to their employer."
+  },
+  "correct": "A",
+  "explanation": "Standard IV(A) Loyalty recommends (not requires) that members and candidates provide\ntheir employer with a copy of the Code and Standards and notify their employer that they\nare required to follow the Code and Standards. There is no recommendation to leave a\nfirm simply because the Code and Standards have not been adopted by the firm in its\npolicies and procedures."
+ },
+ {
+  "id": "1574730",
+  "question": "While copying some of her research materials at work, Mary Jones comes across a few\nincomplete research notes written by one of her colleagues. As a result of reading the notes,\nand without further review, Jones immediately changes one of her stock recommendations\nfrom sell to buy. Which of the following CFA Institute Standards has Jones violated?",
+  "options": {
+   "A": "Standard I(B), Independence and Objectivity.",
+   "B": "Standard III(A), Loyalty, Prudence, and Care.",
+   "C": "Standard V(A), Diligence and Reasonable Basis."
+  },
+  "correct": "C",
+  "explanation": "Jones has violated Standard V(A) by failing to exercise diligence and thoroughness.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1574920",
+  "question": "Which of the following examples of supervisory responsibility is consistent with the\nrequirements of the Code and Standards?",
+  "options": {
+   "A": "A firm\u2019s compliance policies allow a portfolio manager to designate a trade to an account or portfolio after the outcome of the trade is known.",
+   "B": "A professional conduct evaluation is part of an employee\u2019s performance review.",
+   "C": "A supervisor's income is partially based on the firm\u2019s overall level of trading activity."
+  },
+  "correct": "B",
+  "explanation": "According to Standard IV(C) Responsibilities of Supervisors, supervisors must make\nreasonable efforts to detect and prevent violations of laws, rules, regulations, and the\nCode and Standards by anyone under their authority. Incorporating a professional\nconduct evaluation as part of an employee's performance review is a recommended\ncompliance procedure.\n(Module 91.6, LOS 91: IV(C))"
+ },
+ {
+  "id": "1581500",
+  "question": "An analyst finds a stock with historical returns that are not correlated with interest rate\nchanges. The analyst writes a report for his clients that have large allocations in fixed-\nincome instruments and emphasizes the observed lack of correlation. He feels the stock\nwould be of little value to investors whose portfolios are composed primarily of equities. The\nclients with allocations of fixed income instruments are the only clients to see the report.\nAccording to Standard V(B), Communication with Clients and Prospective Clients, the analyst\nhas:",
+  "options": {
+   "A": "violated the Standard concerning fair dealings with all clients.",
+   "B": "violated the article in the Standard concerning facts and opinions.",
+   "C": "not violated the Standard."
+  },
+  "correct": "C",
+  "explanation": "Recommending a stock whose return is uncorrelated with interest rate changes is\nappropriate for the clients described in the problem. Emphasizing the lack of correlation is\nappropriate as long as the analyst makes no guarantees concerning the relationship in the\nfuture. Reporting historical correlation is a presentation of fact, and is not in violation. The\nanalyst is free to show the report only to investors for whom the investment is\nappropriate."
+ },
+ {
+  "id": "1581486",
+  "question": "Sharon West is a CFA charterholder and trust officer for REO Trust Company. Soon after\nbeginning work for REO, West finds that REO has been conducting all its securities\ntransactions through her brother who is a registered representative. West's brother charges\nREO commissions that are equal to the lowest available from another broker. West's brother\ntells her that if she continues doing business with him, he will give her a substantial discount\non all personal transactions she conducts through him. West:",
+  "options": {
+   "A": "does not need to inform her employer of the arrangement because the commissions her brother charges the firm are the lowest available.",
+   "B": "must reject the arrangement.",
+   "C": "must inform her employer of the arrangement because it provides her with additional compensation."
+  },
+  "correct": "C",
+  "explanation": "Members are required to disclose to their employer in writing all monetary compensation\nor other benefit they receive from clients or third parties in addition to the employer's\ncompensation, and obtain the employer's permission for such arrangements."
+ },
+ {
+  "id": "1581418",
+  "question": "The Securities and Exchange Board of India (SEBI) has just enacted a new stock-trading rule.\nSEBI will give brokers a 10-day grace period, during which violators of the rule will be\nimmediately notified and given a chance to remedy their situation to comply with the new\nrule. If a CFA Institute member located in India or doing business in India unknowingly\nviolates the rule and then remedies the situation within the 10-day grace period, has the\nmember violated Standard I(A)?",
+  "options": {
+   "A": "No, because the member remedied the situation.",
+   "B": "No, because the member unknowingly broke the rule.",
+   "C": "Yes, because the member did not maintain knowledge and know of the rule."
+  },
+  "correct": "C",
+  "explanation": "Standard I(A) explicitly says that a member shall maintain knowledge and comply with\nlaws, rules, and regulations. By not knowing of the rule, the member broke the standard."
+ },
+ {
+  "id": "1574742",
+  "question": "June Carter passed Level III of the CFA examination in June but will not complete her work\nexperience requirement until August of next year. Carter can state on her resume that she:",
+  "options": {
+   "A": "is a CFA in waiting.",
+   "B": "passed Levels I, II, and III of the CFA examination.",
+   "C": "will be a CFA charterholder in August of next year as long as she is on track to complete her work experience."
+  },
+  "correct": "B",
+  "explanation": "A candidate cannot use any form of the CFA designation until receiving her charter.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1574745",
+  "question": "Which of the following actions is least likely to prevent the misuse of insider information?",
+  "options": {
+   "A": "Controlling relevant interdepartmental information.",
+   "B": "Monitoring all the phone calls made by the brokers.",
+   "C": "Placing securities on a restricted list when the firm is in possession of material nonpublic information."
+  },
+  "correct": "B",
+  "explanation": "Standard II(A), Material Nonpublic Information, applies in this situation. Standard II(A)\nsuggests the use of \"fire walls\" to protect the firm and to conform to the Standards. A fire\nwall is an information barrier designed to prevent the communication of material\nnonpublic information between departments of a firm. Although the fire wall system\nshould provide a means to review transactions, it is not feasible to monitor all\ncommunications into/out of departments. Placing sensitive securities/firms on \"watch,\n\"restricted,\" or \"rumor\" lists helps management target monitoring of transactions.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1574805",
+  "question": "Jerry Brock, CFA, is a partner in a small investment advisory firm that caters to high net\nworth individuals. He has experienced a number of financial setbacks in his personal life\nover the past two years and has filed for bankruptcy protection. Brock does not inform his\nclients of this. Has Brock violated CFA Institute Standards of Professional Conduct?",
+  "options": {
+   "A": "Yes, because a member must conduct both personal and professional business in a manner that protects their reputation and integrity.",
+   "B": "Yes, because he must disclose the bankruptcy filing to his clients.",
+   "C": "No."
+  },
+  "correct": "C",
+  "explanation": "Declaring personal bankruptcy does not, by itself, reflect adversely on a member or\ncandidate's integrity or trustworthiness. Only if the circumstances of the bankruptcy\nincluded fraud or dishonesty on the part of the member would it violate Standard I(D)\nMisconduct. Standard VI(A) Disclosure of Conflicts does not require members and\ncandidates to disclose personal matters unless they create the appearance of a conflict of\ninterest.\n(Module 91.2, LOS 91: I(D))"
+ },
+ {
+  "id": "1581397",
+  "question": "The Konkol Company implements a new methodology for portfolio valuation that is licensed\nto them by ABC Statistics. To comply with the Code and standards, Konkol should:",
+  "options": {
+   "A": "not discuss the new methodology with clients because doing so would fail to preserve ABC\u2019s confidentiality.",
+   "B": "discuss the new methodology only with clients whose security selection process will change as a result.",
+   "C": "discuss the new methodology with its clients."
+  },
+  "correct": "C",
+  "explanation": "Standard V(B) Communication with Clients and Prospective Clients requires any change in\nthe scope, valuation methodology, or focus of the portfolio to be discussed with clients.\nNo information is given that would suggest the methodology is confidential."
+ },
+ {
+  "id": "1574797",
+  "question": "Hillary Jones, CFA, sometimes promises clients that she will allocate more shares from\noversubscribed initial public offerings (IPOs) than she knows she will actually be able to\ndeliver. Her employer has reprimanded her in the past for similar behavior. Which of the\nfollowing statements is least accurate regarding Jones' behavior?",
+  "options": {
+   "A": "Her actions are a violation of the standard concerning professional misconduct because she deceived her clients.",
+   "B": "Her actions are a violation of the standard concerning misrepresentation, because she promised something she knew the firm could not deliver.",
+   "C": "Her actions are a violation of the Standards only if prosecution results in a felony conviction."
+  },
+  "correct": "C",
+  "explanation": "Jones violated Standard I(C) Misrepresentation by promising clients she would allocate\nmore shares than she could deliver. Her actions also violated Standard I(D) Misconduct\npertaining to acts of dishonesty, fraud, or deceit which reflects adversely on a member's\nprofessional reputation, integrity, or competence. She also violated the Code of Ethics\nwhich states that members and candidates must act with integrity, competence,\ndiligence, respect, and in an ethical manner with the public, clients, and prospective\nclients. The specific punishment for the actions is not relevant.\n(Module 91.2, LOS 91: I(D))"
+ },
+ {
+  "id": "1581505",
+  "question": "Bob Hatfield, CFA, has his own money management firm with two clients. The accounts of\nthe two clients are equal in value. It is Hatfield's opinion that interest rates will fall in the\nnear future. Based upon this, Hatfield begins increasing the bond allocation of each\nportfolio. In order to comply with Standard V(B), Communication with Clients and\nProspective Clients, the analyst needs to:",
+  "options": {
+   "A": "inform the clients of the change and tell them it is based upon an opinion and not a fact.",
+   "B": "make sure that the change is identical for both clients.",
+   "C": "perform both of these functions."
+  },
+  "correct": "C",
+  "explanation": "According to Standard V(B), the analyst must inform the clients of the change and tell\nthem it is based upon an opinion and not a fact. Making an identical change in two\nportfolios may be a violation of this standard if the needs of the clients are not identical."
+ },
+ {
+  "id": "1575014",
+  "question": "When measuring and presenting their investment performance, GIPS compliant firms are\nrequired to:",
+  "options": {
+   "A": "include terminated accounts in their performance history.",
+   "B": "exclude time periods that are unrepresentative of the firm's performance history.",
+   "C": "disclose the performance of the best-performing accounts in each composite."
+  },
+  "correct": "A",
+  "explanation": "Because excluding terminated accounts introduces survivorship bias, GIPS requires firms\nto include these accounts in their performance history. The other two choices describe\nmisleading performance presentation practices that GIPS are designed to avoid.\n(Module 92.1, LOS 92.d)"
+ },
+ {
+  "id": "1574735",
+  "question": "Juan Lopez manages accounts for Street Capital. Lopez's mother is a client of the firm. Lopez\ndoes not make trades in his mother's accounts until all other clients of the firm have been\ngiven an opportunity to trade. Lopez has:",
+  "options": {
+   "A": "violated CFA Institute Standards of Professional Conduct because family accounts that are client accounts should be treated like any other firm accounts. not violated CFA Institute Standards of Professional Conduct because",
+   "B": "transactions for clients should have priority over personal transactions and transactions for beneficial owners.",
+   "C": "violated CFA Institute Standards of Professional Conduct because he is not allowed to trade in family accounts."
+  },
+  "correct": "A",
+  "explanation": "Standard VI(B) Priority of Transactions. Family accounts that are client accounts should be\ntreated like any other firm accounts. Lopez should refrain from exercising excess caution\nsince his mother is a client of the firm like all other clients.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1581447",
+  "question": "Alan Cramer, CFA, practices in a country that does not regulate the investment of company\nretirement plans. He was retained by Bingham Companies to manage their corporate\npension plan. Bingham's management has approached Cramer and requested that Cramer\ninvest the entire plan in Bingham stock.\n\nCramer may:",
+  "options": {
+   "A": "invest a portion of the retirement plan in Bingham Company stock if the investment is prudent and if he keeps the overall portfolio properly diversified. invest all of the retirement plan assets in Bingham Company stock according to",
+   "B": "management's request only if Cramer can document that the investment is more prudent than any other investment opportunity he finds.",
+   "C": "not invest any of Bingham Company's retirement plan in its own stock regardless of the stock's prospects and in spite of management's request."
+  },
+  "correct": "A",
+  "explanation": "Standard III(A), Loyalty, Prudence, and Care, requires members to comply with their\nfiduciary duty. Retirement plan managers owe their duty to the plan participants, not to\nthe management of the company sponsoring the plan. The fiduciary duty includes the\nobligation to diversify the plan's investments, regardless of the quality of the sponsoring\ncompany's stock. Investing in the company's stock is not prohibited."
+ },
+ {
+  "id": "1574898",
+  "question": "Analysts who undertake an independent consulting practice while employed must get\npermission from their employer and should disclose all of the following EXCEPT:",
+  "options": {
+   "A": "the anticipated duration of the service to be rendered.",
+   "B": "the clients contact information.",
+   "C": "the compensation or benefit to be received."
+  },
+  "correct": "B",
+  "explanation": "The Member or Candidate is not required to disclose confidential information about his\nindependent clients.\n(Module 91.6, LOS 91: IV(A))"
+ },
+ {
+  "id": "1581497",
+  "question": "Several years ago, Hilton and Ross, a full service investment firm, managed the initial public\noffering of eCom, Inc. Now, eCom wants Hilton and Ross to underwrite its secondary public\noffering. A senior manager at Hilton and Ross asks Brent Whitman, CFA, one of its equity\nanalysts, to write a favorable research report on eCom to help make the underwriting a\nsuccess. Whitman conducts a thorough analysis of eCom and concludes that the company\nhas serious problems that do not suggest a favorable financial outlook. Nevertheless,\nWhitman writes a favorable report because he is fearful of losing his job. Hilton and Ross\npublicly distribute a report that only contains a buy recommendation and a brief description\nof the basic characteristics of eCom. Whitman has violated:",
+  "options": {
+   "A": "Both Standard I(B) Independence and Objectivity and Standard V(A) Diligence and Reasonable Basis.",
+   "B": "Standard I(B) Independence and Objectivity, only.",
+   "C": "Standard V(A) Diligence and Reasonable Basis only."
+  },
+  "correct": "A",
+  "explanation": "Whitman violated Standard V(A) Diligence and Reasonable Basis because he did not have a\nreasonable and adequate basis for issuing a favorable recommendation. Whitman violated\nStandard I(B) Independence and Objectivity because he did not act independently in\nissuing his recommendation but instead was influenced by senior management at Hilton\nand Ross."
+ },
+ {
+  "id": "1581422",
+  "question": "CFA Institute believes:\n\n     that a minimum level of professional responsibility and conduct dictates that",
+  "options": {
+   "A": "members be aware of and comply with laws, rules, and regulations governing their conduct. that a maximum level of professional responsibility and conduct dictates that",
+   "B": "members be aware of and comply with laws, rules, and regulations governing their conduct. that firms should comply with all domestic laws and regulations and that these",
+   "C": "laws also govern behavior in foreign markets, regardless of foreign laws and requirements."
+  },
+  "correct": "C",
+  "explanation": "CFA Institute's Code and Standards dictate a minimum level of conduct. Standards should\nnot be based on ethics of upper management and the board of directors of a company.\nFirms must comply with the strictest applicable standards, whether they be foreign or\ndomestic laws and regulations."
+ },
+ {
+  "id": "1574746",
+  "question": "Rhonda Morrow, CFA, is an analyst for Waller & Madison, a brokerage and investment\nbanking firm. Waller & Madison is a market maker for CorpEast, and Tim Waller, a principal\nin Morrow's firm, sits on CorpEast's board. Morrow has been asked to write a research\nreport on CorpEast. According to the Standard regarding disclosure of conflicts, Morrow:",
+  "options": {
+   "A": "must disclose that Waller & Madison is a market maker in CorpEast shares but not that Waller is a board member.",
+   "B": "may write the report if she discloses both that Waller & Madison is a market maker in CorpEast shares and that Waller sits on the CorpEast board.",
+   "C": "must not write the report."
+  },
+  "correct": "B",
+  "explanation": "To comply with Standard VI(A) Disclosure of Conflicts, both the market-making activities by\nthe firm and the directorship held by a principal in the firm must be disclosed.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1581381",
+  "question": "Brenda Simone is a money manager and the Blue Streets Pension Fund is one of her clients.\nThe director of the pension fund calls Simone and asks her to use a particular broker so that\nthe fund can obtain some research services with the soft dollars from that broker. Simone\nbelieves that the desired broker will provide the same price and execution as the normal\nbroker that Simone uses. Simone does as the client wishes. Simone has:",
+  "options": {
+   "A": "not violated the Standards as long as the research provided by the broker will benefit Blue Streets.",
+   "B": "not violated the Standards as long as the research provided by the broker will benefit the plan beneficiaries.",
+   "C": "violated the Standards."
+  },
+  "correct": "B",
+  "explanation": "Simone must ensure that the research benefits the parties to whom she owes fiduciary\nduty, which are the plan participants."
+ },
+ {
+  "id": "1575010",
+  "question": "Jean Davis and Brian Taylor were recently hired by a local brokerage. Davis is registered for\nthe Level II CFA exam and does not reference the CFA designation on her business card. In\nher marketing materials, Davis factually describes CFA requirements and notes that she\nexpects to pass in June. Taylor passed the Level II exam and has not yet registered for the\nLevel III CFA exam. Taylor also does not reference the CFA designation on his card and writes\nin his marketing materials that he passed both Levels I and II of the CFA exam on his first try,\nwhich is true. Have Davis or Taylor violated any CFA Institute Standards of Professional\nConduct?",
+  "options": {
+   "A": "Only one violated the Standards.",
+   "B": "Both violated the Standards.",
+   "C": "Neither violated the Standards."
+  },
+  "correct": "A",
+  "explanation": "Davis violated Standard VII(B) Reference to the CFA Institute, the CFA Designation, and the\nCFA Program because she stated a future date in which she expected to pass. Candidates\nwho imply partial designations or expected completion dates violate this Standard. Stating\na fact about having passed each of the first two levels on the first try does not violate the\nStandard.\n(Module 91.9, LOS 91: VII(B))"
+ },
+ {
+  "id": "1581466",
+  "question": "An analyst belongs to a nationally recognized charitable organization, which requires dues\nfor membership. The analyst has worked out a deal where he provides money management\nadvice in lieu of paying dues. Which of the following must the analyst do?",
+  "options": {
+   "A": "Resign from the position because the relationship is a conflict with the Standards.",
+   "B": "Must treat the charitable organization as his employer.",
+   "C": "Nothing since he is not an employee of the charitable organization."
+  },
+  "correct": "B",
+  "explanation": "An employee/employer relationship does not necessarily mean monetary compensation\nfor services. If the analyst is performing services for the organization, then the analyst\nmust treat the position as if he were an employee."
+ },
+ {
+  "id": "1575020",
+  "question": "Lora Murphy has an account at Ferrell Investments, a GIPS-compliant firm. Murphy invests in\nsmall-cap value stocks and pays Ferrell a standard fee to execute her buy and sell orders,\nbut does not permit her account manager to initiate trades on her behalf. According to GIPS,\nis Ferrell required to include Murphy's portfolio in their small-cap value stock composite?",
+  "options": {
+   "A": "Yes, because the portfolio is consistent with the defined strategy for this composite.",
+   "B": "No, because constructing composites is voluntary.",
+   "C": "No, because the portfolio is non-discretionary."
+  },
+  "correct": "C",
+  "explanation": "Because this portfolio's owner restricts the firm from implementing its own investment\nstrategy, the firm should designate this portfolio as non-discretionary and should not\ninclude it in the firm's composites.\n(Module 92.1, LOS 92.d)"
+ },
+ {
+  "id": "1581533",
+  "question": "Judy Albert and Bob Tye, who recently started their own investment advisory business, plan\nto take the Level III CFA examination next year. Albert's business card reads, \"Judy Albert,\nCFA Candidate.\" Tye has not put anything about the CFA on his business card. However, the\nfirm's promotional materials describe the CFA requirements and indicate that Tye\nparticipates in the CFA program and has completed Levels I and II. According to CFA Institute\nStandards of Professional Conduct:",
+  "options": {
+   "A": "Albert has violated the Standards but Tye has not.",
+   "B": "Both Albert and Tye have violated the Standards.",
+   "C": "Neither Albert nor Tye has violated the Standards."
+  },
+  "correct": "A",
+  "explanation": "On letterheads and business cards and in directory listings, only the mark CFA or the\nwords Chartered Financial Analyst should appear after the charterholder's name."
+ },
+ {
+  "id": "1574789",
+  "question": "Wes Smith, CFA, has been working toward the completion of a Master of Science in Finance.\nHe has passed all the necessary courses and written the necessary thesis. He still must\ndefend the thesis in one month. Smith's thesis advisor assures him that he will pass the\nthesis defense. Smith has new business cards printed with \"M.S. in Finance\" after his name.\nThis is a violation of:",
+  "options": {
+   "A": "none of the Standards if Smith does not make the cards public until after he defends his thesis and receives his degree.",
+   "B": "Standard I(C), Misrepresentation.",
+   "C": "Standard VII(B), Reference to CFA Institute, the CFA Designation, and the CFA Program."
+  },
+  "correct": "A",
+  "explanation": "If the cards were distributed today he would be in violation of Standard I(C),\nMisrepresentation. However, if Smith does not make the cards public until after he\nreceives the degree, there is no violation.\n(Module 91.2, LOS 91: I(C))"
+ },
+ {
+  "id": "1574774",
+  "question": "CFA Institute members should encourage their employers to do all of the following EXCEPT:",
+  "options": {
+   "A": "conduct background checks on potential employees to ensure that they are of good character and eligible to work in the investment industry.",
+   "B": "make clear that dishonest personal behavior reflects poorly on the profession.",
+   "C": "require employees to write personal ethics statements."
+  },
+  "correct": "C",
+  "explanation": "There is no reason to have employees write personal ethics statements. CFA Institute\nencourages all of the other actions.\n(Module 91.1, LOS 91: I(A))"
+ },
+ {
+  "id": "1574994",
+  "question": "Which of the following is least likely an appropriate use of the CFA designation?",
+  "options": {
+   "A": "Jeremy Salyers, as a CFA charterholder, will outperform the market.",
+   "B": "Jeremy Salyers, CFA.",
+   "C": "Jeremy Salyers has earned the CFA designation by passing three exams, all on his first attempts."
+  },
+  "correct": "A",
+  "explanation": "Members may not over-promise their performance as CFA charterholders. They may\nfollow their name with the designation and describe, factually, the requirements for\nbecoming a charterholder. It is acceptable for a member to state that he passed the\nexams on his first attempts if that is true.\n(Module 91.9, LOS 91: VII(B))"
+ },
+ {
+  "id": "1581515",
+  "question": "Arthur Harrow, CFA, is a pharmaceuticals analyst at Dominion Asset Management. His\nsupervisor directs him to prepare separate research reports on Miracle Drug Company and\nWonder Drug Company. Harrow serves on the board of Miracle and owns shares of Wonder.\nAccording to the Standards of Professional Conduct, which of the following actions is Harrow\nrequired to take when he writes the research reports?",
+  "options": {
+   "A": "Harrow must disclose his relationship with Miracle but not his ownership of shares in Wonder.",
+   "B": "Harrow must disclose his ownership of shares in Wonder but not his relationship with Miracle.",
+   "C": "Harrow must disclose both his relationship with Miracle and his ownership of shares in Wonder."
+  },
+  "correct": "C",
+  "explanation": "Standard VI(A) Disclosure of Conflicts requires that Harrow disclose matters that\nreasonably could be expected to interfere with his independence and objectivity. Both\nHarrow's relationship with Miracle and his ownership of Wonder's shares represent\npotential conflicts of interest and must be disclosed prominently and in clear language in\nthe research report, giving clients the ability to weigh the possible effects of these\npotential conflicts on his analysis and conclusions."
+ },
+ {
+  "id": "1574902",
+  "question": "Jacob Allen, CFA, decides he could make more money if he started his own company. Which\nof the following steps would most likely violate Standard IV(A) Loyalty?",
+  "options": {
+   "A": "Renting space for his new company and interviewing several candidates for the position of manager at the new company.",
+   "B": "Soliciting, without written permission from his current employer, the business of former clients after he leaves his current employer.",
+   "C": "Using his notes from prior research of a firm in a creating a new research report on the firm, after leaving his current employer."
+  },
+  "correct": "C",
+  "explanation": "Allen's notes from his research are employer records and even though he prepared them,\nit is a violation to take them from his employer without permission. Soliciting former\nclients' business is not, in itself, a violation as long has Allen has not misappropriated\nclient information from his former employer. Preparations to start a new business are not\nnecessarily a violation of the Standard, although soliciting current clients or recruiting\nother firm personnel for the new venture, before formally leaving his employer, would be\nviolations of the Standards.\n(Module 91.6, LOS 91: IV(A))"
+ },
+ {
+  "id": "1581488",
+  "question": "Wanda Kirby, CFA, recently joined Allegheny Investments as a senior analyst. Because of her\nextensive experience in the investments business and knowledge of the Code and\nStandards, Allegheny's management asked her to assume supervisory responsibility. Kirby\nreviewed Allegheny's existing compliance system and determined that it was inadequate to\nallow her to clearly discharge her supervisory responsibility. According to CFA Institute\nStandards, Kirby should:",
+  "options": {
+   "A": "agree to accept supervisory responsibility and to develop reasonable procedures to allow her to adequately exercise such responsibility.",
+   "B": "agree to accept supervisory responsibility provided that Allegheny adopts reasonable procedures to allow her to adequately exercise such responsibility.",
+   "C": "decline in writing to accept supervisory responsibility until Allegheny adopts reasonable procedures to allow her to adequately exercise such responsibility."
+  },
+  "correct": "C",
+  "explanation": "If Kirby clearly cannot discharge supervisory responsibilities because of an inadequate\ncompliance system, she should decline in writing to accept supervisory responsibility until\nAllegheny adopts reasonable procedures to allow her to adequately exercise such\nresponsibility."
+ },
+ {
+  "id": "1574854",
+  "question": "Which of the following most accurately states a limitation that the Fair Dealing standard\nimposes?",
+  "options": {
+   "A": "Clients should not be discriminated against when disseminating investment recommendations.",
+   "B": "Referral fees may be disclosed after proceeding with an agreement for service.",
+   "C": "Before trading on her own portfolio, a CFA charterholder must wait for employer and client deals to be executed."
+  },
+  "correct": "A",
+  "explanation": "Standard III(B) Fair Dealing states that the dissemination of information and\nrecommendations to clients must be handled fairly. The other choices are related to\nStandard VI(B) Priority of Transactions and Standard VI(C) Referral Fees.\n(Module 91.4, LOS 91: III(B))"
+ },
+ {
+  "id": "1574875",
+  "question": "Greg Stiles, CFA, is liquidating a large portion of a client's portfolio because the client is\nplanning to buy a vacation home. Stiles informs one of his colleagues at the firm that the\nclient is looking for a vacation home, because the colleague's wife is a licensed real estate\nbroker. Does this violate the Standard concerning preservation of confidentiality?",
+  "options": {
+   "A": "No, because he did not disclose any details about the client\u2019s portfolio or other financial resources.",
+   "B": "No, because his colleague is also working on the client\u2019s behalf.",
+   "C": "Yes."
+  },
+  "correct": "C",
+  "explanation": "Stiles violated Standard III(E) Preservation of Confidentiality because the colleague was not\ninvolved in the firm's work for his client. Stiles must keep client information confidential\nand limit the information to others in his firm that are involved in the work being\nperformed for the client. The confidentiality standard applies to any information that a\nmember has learned in the performance of his duties for the client.\n(Module 91.5, LOS 91: III(E))"
+ },
+ {
+  "id": "1574786",
+  "question": "An analyst preparing a report needs to cite which of the following?",
+  "options": {
+   "A": "A recent quote from the Federal Reserve Chairman.",
+   "B": "Estimates of betas provided by Standard & Poor's.",
+   "C": "The individual who developed a chart from the same firm."
+  },
+  "correct": "B",
+  "explanation": "Statistics provided by a recognized agency, such as Standard and Poor's, do not need to be\ncited. Charts, quotes, and algorithms developed by the firm would need to be cited when\nthey are used but the individual(s) who developed the materials within the firm do not\nneed to be cited.\n(Module 91.2, LOS 91: I(C))"
+ },
+ {
+  "id": "1581426",
+  "question": "The mosaic theory is the idea that an analyst can:",
+  "options": {
+   "A": "base his recommendations on nonpublic material information only for the clients of the company, but not for the general public. make recommendations or trade based on several pieces of public or nonpublic",
+   "B": "information, each piece by itself being nonmaterial, but when compiled the information becomes material.",
+   "C": "make investment recommendations on the basis of several pieces of nonpublic information as long as the aggregate information remains nonmaterial."
+  },
+  "correct": "B",
+  "explanation": "The mosaic theory permits an analyst to make recommendations based upon several\npieces of public or nonmaterial information, even though the complied result is both\nmaterial and nonpublic."
+ },
+ {
+  "id": "1575013",
+  "question": "Which of the following statements most accurately describes why the Global Investment\nPerformance Standards (GIPS) were created?",
+  "options": {
+   "A": "Meet the need for a single globally accepted set of investment performance presentation standards.",
+   "B": "Provide a single globally accepted set of regulatory guidelines among developed securities markets.",
+   "C": "Establish ethical requirements for individuals who are responsible for performance presentation."
+  },
+  "correct": "A",
+  "explanation": "Recognizing the need for one globally accepted set of investment performance\npresentation standards, CFA Institute created the Global Investment Performance\nStandards (GIPS). GIPS are voluntary standards that investment management firms may\nadopt.\n(Module 92.1, LOS 92.a)"
+ },
+ {
+  "id": "1575021",
+  "question": "When verifying a firm's compliance with Global Performance Investment Standards (GIPS),\nthe verifier must:",
+  "options": {
+   "A": "attest that the firm\u2019s processes and procedures are established to present performance in accordance with GIPS requirements.",
+   "B": "clearly identify the composites for which verification has been performed.",
+   "C": "disclose whether the verification was performed by the firm\u2019s internal auditors or a third party."
+  },
+  "correct": "A",
+  "explanation": "The verifier must attest that the firm has complied with all GIPS requirements for\ncomposite construction on a firm-wide basis and that the firm's processes and procedures\nare established to present performance in accordance with the calculation methodology,\ndata, and format requirements of GIPS. Verification is not a GIPS requirement. If\nperformed, verification applies to the firm as a whole, not to individual composites, and\nmust be performed by an independent third party, not the firm itself.\n(Module 92.1, LOS 92.e)"
+ },
+ {
+  "id": "1581520",
+  "question": "A firm produces regular proprietary research reports on various companies. According to\nStandard VI(B), Priority of Transactions, which of the following would be an \"access person\"?",
+  "options": {
+   "A": "An independent auditor with access to material, non-public information on a company being analyzed.",
+   "B": "A person working in the mail room.",
+   "C": "A supervisory analyst who reviews all research reports prior to dissemination."
+  },
+  "correct": "C",
+  "explanation": "Persons with access to information during the normal preparation of research\nrecommendations are subject to Standard VI(B). An independent auditor is not involved in\nthe normal preparation of research recommendations."
+ },
+ {
+  "id": "1581499",
+  "question": "Standard V(B), Communication with Clients and Prospective Clients, least likely requires\nmembers to:",
+  "options": {
+   "A": "disclose the general principles of investment processes used to analyze and select securities, and construct portfolios.",
+   "B": "make clear buy or sell recommendations on the securities covered in research reports.",
+   "C": "use reasonable judgment regarding the inclusion or exclusion of relevant factors in research reports."
+  },
+  "correct": "B",
+  "explanation": "There is no obligation to make buy or sell recommendations on securities that are covered\nby research reports."
+ },
+ {
+  "id": "1574818",
+  "question": "Marion Klatt, CFA, is a representative for Thiel Financial Network. Klatt received a phone call\nat home from William Kind, a junior executive at Westtown Development Company, asking\nwhether Klatt had heard that Westtown had just reached an agreement to acquire a major\nshopping mall chain at a very favorable price. (Klatt had not heard this news, and Klatt was\nable to confirm that the information had not yet been made public.) Kind requested that\nKlatt acquire 10,000 shares of Westtown for Kind's personal account.\n\nKlatt should:",
+  "options": {
+   "A": "not acquire the shares until he has contacted Westtown's management and encouraged them to publicly announce the merger discussion.",
+   "B": "not acquire the shares until the information is made public.",
+   "C": "not acquire the shares."
+  },
+  "correct": "C",
+  "explanation": "Standard II(A) prohibits members from taking investment action if they possess material\nnonpublic information. Kind has a duty to keep information confidential that he acquired\nin the course of his duties at Westtown. The information is clearly material, so Klatt is not\npermitted to trade on it. Klatt should make reasonable efforts to achieve public\ndissemination of the information by contacting management and encouraging them to\nmake the information public. Klatt may not trade on the information until it is made\npublic.\n(Module 91.3, LOS 91: II(A))"
+ },
+ {
+  "id": "1581471",
+  "question": "John Hill, CFA, has been working for Advisors, Inc., for eight years. Hill is about to start his\nown money management business and has given his two weeks' notice of his resignation\nfrom Advisors. A few days before his resignation takes effect, Rod Bright, a former client of\nAdvisors, calls Hill at his home about his new firm. Bright says that he is very happy that Hill\nis leaving Advisors because now he and Hill can resume a professional relationship. Bright\nsays that he would never become a client of Advisors again. Hill promises to call Bright back\nafter he has left Advisors but takes no further action. Hill does not tell Advisors about the\ncall. Hill has most likely:",
+  "options": {
+   "A": "violated the Standard concerning loyalty to employer.",
+   "B": "violated the Standard concerning disclosure of conflicts.",
+   "C": "not violated the Standards."
+  },
+  "correct": "C",
+  "explanation": "Based on the information here, Hill has not violated the Standards. The phone call was not\nwith a current client of Advisors, and the individual made it clear that he would not\nbecome a client of Advisors. Therefore, there was no breach of loyalty to Advisors by Hill\nfor not acting in his employer's interests, nor is there a conflict of interest."
+ },
+ {
+  "id": "1581429",
+  "question": "A stockbroker who is a CFA Institute member is called on the telephone by the CEO of a large\ncompany. The CEO asks to buy shares of the CEO's company for the accounts of the CEO's\nchildren. In the course of the conversation, the CEO says this will really pay off when the\nupcoming takeover goes through. The stockbroker checks her sources and finds no\ninformation about the takeover. In this case the broker should:",
+  "options": {
+   "A": "do neither of the actions listed here.",
+   "B": "execute the order for all clients as required by Standard III(B), Fair Dealing. only execute the order in compliance with Standard III(A), Loyalty, Prudence,",
+   "C": "and Care. Since the client is buying the stock for the children, there is not a problem."
+  },
+  "correct": "A",
+  "explanation": "Doing any of these actions would be a violation of Standard II(A), Material Nonpublic\nInformation. Members and Candidates must not act or induce others to act on material\nnonpublic information."
+ },
+ {
+  "id": "1574775",
+  "question": "A member or candidate who produces issuer-paid research should most appropriately\nnegotiate:",
+  "options": {
+   "A": "a flat fee prior to writing the report.",
+   "B": "a fee scale based on the subsequent performance of the issuer\u2019s securities.",
+   "C": "compensation in the form of equity or options, but not cash."
+  },
+  "correct": "A",
+  "explanation": "Standard I(B) Independence and Objectivity states that the best practice for issuer-paid\nresearch is to negotiate a flat fee before writing the report. Compensation that depends\non the performance of the issuer's securities can compromise an analyst's objectivity by\ncreating an incentive to write a positive recommendation.\n(Module 91.1, LOS 91: I(B))"
+ },
+ {
+  "id": "1581506",
+  "question": "Nicole Wise, CFA, is an analyst at Chicago Securities. She attends a meeting with\nmanagement of one of the companies that she covers. During the meeting, management\nexpresses great optimism about the company's recent acquisition of a new business. Wise is\nexcited about these prospects and issues a research report that states that the company is\nabout to achieve significant success with the new acquisition. Wise has:",
+  "options": {
+   "A": "not violated CFA Institute Standards of Professional Conduct because she had reasonable reason to believe that the statements in her report were true.",
+   "B": "violated CFA Institute Standards of Professional Conduct because she did not check the accuracy of the statements that management made.",
+   "C": "violated CFA Institute Standards of Professional Conduct because she misrepresented the optimism by turning it to certainty."
+  },
+  "correct": "C",
+  "explanation": "Standard V(B), Communication with Clients and Prospective Clients. Members must\ndistinguish between fact and opinion in the presentation of a research report or\ninvestment recommendation. Wise violated the standard because she misrepresented\nmanagement's enthusiasm by turning it into certainty."
+ },
+ {
+  "id": "1574833",
+  "question": "All of the following are violations of Standard II(B) Market Manipulation EXCEPT:",
+  "options": {
+   "A": "disseminating misleading information about the development of new products and technologies.",
+   "B": "exploiting differences in market inefficiencies.",
+   "C": "securing a controlling interest in an equity security in order to influence the price of a related derivative instrument."
+  },
+  "correct": "B",
+  "explanation": "Standard II(B) Market Manipulation prohibits practices that distort prices or artificially\ninflate trading volumes with the intent to mislead market participants. The Standard is not\nintended to prohibit legitimate trading strategies that exploit differences in market\ninefficiencies.\n(Module 91.3, LOS 91: II(B))"
+ },
+ {
+  "id": "1574895",
+  "question": "All of the following activities might constitute a violation of Standard IV(A), Loyalty to\nEmployer, EXCEPT:",
+  "options": {
+   "A": "misuse of confidential information.",
+   "B": "solicitation of the employer's clients following termination of employment.",
+   "C": "solicitation of the employer's clients prior to termination of employment."
+  },
+  "correct": "B",
+  "explanation": "Solicitation of the employer's clients prior to termination of employment would constitute\na violation of Loyalty to Employer, but solicitation of clients following termination would\nnot.\n(Module 91.6, LOS 91: IV(A))"
+ },
+ {
+  "id": "1581435",
+  "question": "A brokerage firm has a trading department and an investment-banking department. Often\nthe investment-banking department receives material non-public information that would be\nvaluable in advising the firm's brokerage clients. In order to comply with the Standards, the\nfirm:",
+  "options": {
+   "A": "must divest one of the departments.",
+   "B": "should restrict employee trading in securities for which the firm is in possession of material non-public information.",
+   "C": "should record the exchange of information between the investment-banking department and the brokerage department."
+  },
+  "correct": "B",
+  "explanation": "Restricting employee trading in stocks for which the firm has material non-public\ninformation is the best answer. Recording the exchange of information between the two\ndepartments is not the best option because there should be no exchange of information\nbetween these two departments. Divesting a department is not a suitable method for\naddressing this potential problem."
+ },
+ {
+  "id": "1581528",
+  "question": "Standard VI(C), Referral Fees, requires the member to do all of the following EXCEPT:",
+  "options": {
+   "A": "disclose to the referred client how much the referral source was paid to refer the client.",
+   "B": "disclose to the referred client the percentage of the member's business that comes from referrals.",
+   "C": "make required disclosures to the referred client before an agreement is made to provide services to the referred client."
+  },
+  "correct": "B",
+  "explanation": "The applicable Standard, VI(C), does not require a member to disclose the percentage of\ntheir business that comes from referrals.\nStandard VI(C) states, \"Members shall disclose to clients and prospects any consideration\nor benefit received by the member or delivered to others for the recommendation of any\nservices to the client or prospect.\" Appropriate disclosure means telling the client or\nprospect, before agreeing to perform services, of any benefit given or received for\nrecommending the member's services."
+ },
+ {
+  "id": "1574904",
+  "question": "May Frost, CFA, is an equity research analyst for a \"precious metals mining\" exchange traded\nfund which has recently started significantly outperforming its benchmark after several\nyears of stagnation. Upon investigating the source of the outperformance, Frost learns that\nthe fund has experienced severe style drift, and now has a significant proportion of its\nresources invested in technology and internet stocks. Frost reviews the fund's prospectus\nand learns the current sector weighting violates multiple prospectus covenants. Frost\ncontacts her supervisor and the fund's compliance department and is told the portfolio\nweighting is not her responsibility and that she should not pursue the matter further. Frost\nreviews the firm's whistleblower policy, contacts personal legal counsel, and then contacts\nregulatory authorities regarding the style drift and prospectus violations. Frost is most likely:",
+  "options": {
+   "A": "in violation of the Standard on loyalty.",
+   "B": "in violation of the Standard on preservation of confidentiality.",
+   "C": "not in violation of the Code and Standards."
+  },
+  "correct": "C",
+  "explanation": "The Code and Standards do not prohibit whistleblowing actions, as long as these actions\ndo not violate applicable laws or regulations.\n(Module 91.6, LOS 91: IV(A))"
+ },
+ {
+  "id": "1581509",
+  "question": "Todd Gable, CFA, was attending a noon luncheon when he overheard two software\nexecutives talking about a common vendor, Datagen, about how wonderful they thought the\ncompany was, and about a rumor that a major brokerage firm was preparing to issue a\nstrong buy recommendation on the stock. Gable returned to the office, checked a couple of\nonline sources, and then placed an order to purchase Datagen in all of his discretionary\nportfolios. The orders were filled within an hour. Three days later, a brokerage house issued\na strong buy recommendation and Datagen's share price went up 20%. Gable then obtained\nthe brokerage house's research report on Datagen and quoted parts of it in a report to his\nclients. Gable has most likely violated the Standards by:\n\nGable has:",
+  "options": {
+   "A": "not having a reasonable basis for an investment action.",
+   "B": "using material nonpublic information.",
+   "C": "using the recommendation of another brokerage firm in his report."
+  },
+  "correct": "A",
+  "explanation": "Standard V(A) requires members to have a reasonable and adequate basis for taking\ninvestment actions. Overhearing a conversation does not provide adequate basis.\nHowever, the overheard rumor was not material nonpublic information. Quoting another\nfirm's research is acceptable as long as the material is properly attributed to its source."
+ },
+ {
+  "id": "1581472",
+  "question": "Which of the following statements regarding employee/employer relationships is NOT\ncorrect?",
+  "options": {
+   "A": "A written contract may or may not exist between employer and employee.",
+   "B": "An employee is someone in the service of another.",
+   "C": "There must be monetary compensation for an employer/employee relationship to exist."
+  },
+  "correct": "C",
+  "explanation": "Monetary compensation is not a requirement of the employee/employer relationship."
+ },
+ {
+  "id": "1581401",
+  "question": "Judy Gonzales is a portfolio manager with Brenly Capital and works on Johnson Company's\naccount. Brenly has a policy against accepting gifts over $25 from clients. The Johnson\nportfolio has a fantastic year, and in appreciation, the pension fund manager sent Gonzales\na rare bottle of wine. Gonzales should:",
+  "options": {
+   "A": "inform her supervisor in writing that she received additional compensation in the form of the wine.",
+   "B": "present the bottle of wine to her supervisor.",
+   "C": "return the bottle to the client explaining Brenly's policy."
+  },
+  "correct": "C",
+  "explanation": "By not returning the bottle she would be violating the Standard on disclosure of conflicts\nto the employer, which states that employees must comply with prohibitions imposed by\ntheir employer."
+ },
+ {
+  "id": "1574953",
+  "question": "Ethyl Redd recently joined Bloomington Investments as a research analyst. After spending an\nafternoon looking through the research team's archives, Redd is not sure Bloomington\nmaintains the records that support the team's analysis and recommendations for the\nminimum 7-year period called for by Standard V(C), Record Retention. What is Redd's most\nappropriate course of action?",
+  "options": {
+   "A": "Decline to participate in any new research until she can verify that the firm is in compliance with the Standard.",
+   "B": "Keep her own copies of the relevant records and maintain them at home for a minimum 7-year holding period. Review the firm\u2019s record retention procedures with her supervisor or",
+   "C": "compliance officer to ensure that they comply with the Standard, or suggest ways to bring them into compliance."
+  },
+  "correct": "C",
+  "explanation": "Standard V(C), Record Retention requires that members maintain all records supporting\nanalysis, recommendations, actions, and all other investment related communications\nwith clients and prospects. The recommended procedures for compliance with Standard\nV(C) state that the record-keeping requirement is generally the firm's responsibility. These\nrecords are the property of the firm, so Redd keeping her own copies at home could\npotentially violate Standard IV(A), Loyalty. Redd's best course of action is to review the\nfirm's procedures with her supervisor and recommend any improvements that are\nnecessary to bring them into compliance with Standard V(C).\n(Module 91.7, LOS 91: V(C))"
+ },
+ {
+  "id": "1574831",
+  "question": "Which of the following is an example of information-based market manipulation?",
+  "options": {
+   "A": "Influencing futures prices by obtaining a dominant position in the underlying commodity.",
+   "B": "Spreading false rumors about a stock on social media to influence its price.",
+   "C": "Entering large offsetting buy and sell orders to inflate trading volume."
+  },
+  "correct": "B",
+  "explanation": "Spreading false rumors about a stock is an example of information-based market\nmanipulation. The other choices are examples of transaction-based market manipulation.\n(Module 91.3, LOS 91: II(B))"
+ },
+ {
+  "id": "1581542",
+  "question": "With regard to Global Investment Performance standards (GIPS), if the Chief Investment\nOfficer of an investment advisory firm also is a CFA charterholder:",
+  "options": {
+   "A": "the firm is required to comply with GIPS.",
+   "B": "the charterholder is required to comply with GIPS.",
+   "C": "neither the firm nor the charterholder are required to comply with GIPS."
+  },
+  "correct": "C",
+  "explanation": "Adoption of GIPS is voluntary for firms. GIPS apply to firms, not individuals."
+ },
+ {
+  "id": "1574794",
+  "question": "Which of the following least likely violates the Standard concerning misconduct? Roland\nLawson, a financial analyst:",
+  "options": {
+   "A": "drinks excessively during business meetings with clients and returns to work under the influence of alcohol.",
+   "B": "is arrested for participating in a nonviolent protest.",
+   "C": "committed perjury in connection with a lawsuit against his firm."
+  },
+  "correct": "B",
+  "explanation": "Guidance for Standard I(D) Misconduct recognizes civil disobedience as an activity that is\nnot a violation. The focus of the Standard is on professional conduct, not personal\nconduct, unless the personal conduct involves dishonesty, fraud, or deceit.\n(Module 91.2, LOS 91: I(D))"
+ },
+ {
+  "id": "1574970",
+  "question": "Connie Baker, CFA, is an analyst with the brokerage and investment banking firm Hill and\nStevens (H&S). Baker's supervisor, John Lewis, has asked her to write a research report on\nJagged Rock Brewing. The H&S mergers and acquisitions department has represented\nJagged Rock in all of its acquisitions for the past 12 years. Both Hill and Stevens sit on Jagged\nRock's board. According to the Standards of Professional Conduct, can Baker write the\nreport?",
+  "options": {
+   "A": "No.",
+   "B": "Yes, if she discloses the directorships and the mergers-and-acquisitions relationship.",
+   "C": "Yes, if she maintains her independence and objectivity in its preparation."
+  },
+  "correct": "B",
+  "explanation": "Standard VI(A) Disclosure of Conflicts requires that members disclose to clients and\nprospects any potential conflicts of interest that could reasonably expect to impair their\nobjectivity. It does not prohibit analysts with potential conflicts from writing the reports.\n(Module 91.8, LOS 91: VI(A))"
+ },
+ {
+  "id": "1581389",
+  "question": "Paul Drake, CFA, is employed by Muskie Company to provide investment advice to\nparticipants in the firm's defined contribution pension plan. Muskie stock is one of the\ninvestment options in the plan. Drake feels that the stock is too risky for employees to own\nand starts advising them to pull out of the stock. The Treasurer of the company calls Drake\nand tells him that he will be fired if he continues making such advice because he is violating\nhis fiduciary duty to the company. Drake should most appropriately:",
+  "options": {
+   "A": "make sell recommendations but point out that the company Treasurer has a differing and valid point of view.",
+   "B": "tell employees that he cannot provide advice on company stock because of a conflict of interest.",
+   "C": "continue to advise employees to sell their stock."
+  },
+  "correct": "C",
+  "explanation": "Although Drake is paid by the company, his fiduciary duty is to the plan participants. His\nadvice cannot be compromised by business considerations, otherwise he will be violating\nthe Standard on loyalty, prudence, and care."
+ },
+ {
+  "id": "1574783",
+  "question": "Based on CFA Institute Standards of Professional Conduct, which of the following statements\nis a violation of Standard I(C), Misrepresentation?",
+  "options": {
+   "A": "A broker says XYZ stock is very likely to double in value over the next six months. A young trainee bond trader tells a prospective client that she can assist the",
+   "B": "client in all the client's investment needs: equity, fixed income, and derivatives and based on her years of experience as an analyst in the business that an investment looks like it has lots of potential.",
+   "C": "An investment manager recommends to a prospective client an investment in GNMA bonds because they are guaranteed by the federal government."
+  },
+  "correct": "B",
+  "explanation": "CFA Institute members, CFA charterholders, and CFA candidates are prohibited from\nmisrepresenting their services or qualifications and inappropriate assurances about any\ninvestment or its return.\n(Module 91.2, LOS 91: I(C))"
+ },
+ {
+  "id": "1574903",
+  "question": "When a CFA Institute member who is presently employed by a firm undertakes any\nindependent practice, he must do all of the following EXCEPT:",
+  "options": {
+   "A": "disclose the expected duration of the services to be rendered.",
+   "B": "remand a percentage (to be determined by the employee and employer) of the income earned back to the employer.",
+   "C": "secure permission from the employer."
+  },
+  "correct": "B",
+  "explanation": "The member is obligated to get permission from his employer if he will be in any way\ncompeting with his current employer. They must provide notification to their employer\ndescribing the types of services to be rendered, the expected duration, and compensation\nfor the services.\n(Module 91.6, LOS 91: IV(A))"
+ },
+ {
+  "id": "1581413",
+  "question": "Nicholas Brynne, CFA, is a fixed-income analyst who trades in mortgage-backed securities\n(MBS). The MBS industry has seen sweeping regulatory changes since Brynne took his\ncurrent position, and he now feels his understanding of applicable laws and regulatory\nstandards is dated. To comply with the Code and Standards, Brynne is required to:",
+  "options": {
+   "A": "have all trades reviewed by his compliance department until he has obtained an expert level of knowledge in compliance.",
+   "B": "rely on his firm\u2019s policies and procedures for guidance on legal and regulatory standards.",
+   "C": "update his understanding of applicable laws and regulatory standards relating to his position."
+  },
+  "correct": "C",
+  "explanation": "To comply with Standard I(A) Knowledge of the Law, Brynne should update his\nunderstanding of applicable laws and regulatory standards relating to his position,\nalthough he is not required to be an expert in compliance. Relying only on firm policies\nand procedures is not sufficient."
+ },
+ {
+  "id": "1574922",
+  "question": "Dixie Miller, a Level II CFA candidate, heads the research department of a large brokerage\nfirm. The firm has many analysts, some of whom are subject to the CFA Institute Code of\nEthics and Standards of Professional Conduct. If Miller delegates some of her supervisory\nduties, which statement best describes her responsibilities under the CFA Institute Code and\nStandards?",
+  "options": {
+   "A": "CFA Institute Standards prevent Miller from delegating supervisory duties to subordinates.",
+   "B": "Miller retains supervisory responsibilities for those duties delegated to her subordinates.",
+   "C": "Miller's supervisory responsibilities do not apply to those subordinates who are not subject to the CFA Institute Code and Standards."
+  },
+  "correct": "B",
+  "explanation": "Even though members may delegate supervisory duties, such delegation does not relieve\nmembers of the supervisory responsibility.\n(Module 91.6, LOS 91: IV(C))"
+ },
+ {
+  "id": "1575012",
+  "question": "Which of the following parties may adopt and claim compliance with Global Investment\nPerformance Standards (GIPS)?",
+  "options": {
+   "A": "A software firm that developed a software package that assists investment firms in achieving GIPS compliance.",
+   "B": "The chief compliance officer for a regional money manager.",
+   "C": "An investment management firm located in Indonesia."
+  },
+  "correct": "C",
+  "explanation": "Only an investment firm that actually manages assets can claim compliance with GIPS.\n(Module 92.1, LOS 92.a)"
+ },
+ {
+  "id": "1574709",
+  "question": "Steve Phillips is the new director of equity research for a brokerage company. He receives a\ncall from a reporter at the Financial News, a weekly publication that comes out on Mondays.\nThe reporter explains the relationship she had with his predecessor. They would share\ninformation that they both learned on stocks\u2014the former director would benefit the\ncompany's clients by news he obtained from the reporter in exchange for information he\ngave to her. The former director could ask her not to publish any information he gave her\nuntil after a certain date, ensuring that the brokerage clients would be informed before the\npublication date. After the conversation, Phillips called the former director, who confirmed\nthat the reporter was trustworthy with respect to honoring the agreement for delaying\npublication until clients have been informed. Philips should:\n\n     disclose research not yet disclosed to clients, as long as the reporter promises",
+  "options": {
+   "A": "not to publish the information until after all clients have received the research, and the reporter provides valuable information of her own.",
+   "B": "not disclose any research even after it has been disseminated to clients regardless of the value of the information that the reporter may have.",
+   "C": "only disclose research that has already been disseminated to clients, as long as the reporter is providing valuable information of her own."
+  },
+  "correct": "A",
+  "explanation": "In no case should information be disclosed to a reporter before all clients are provided\nwith the research\u2014doing so will violate the Standard on fair dealing. However, once clients\nhave been informed, there is no violation in releasing the information to the reporter, and\nin doing so Phillips might obtain information that can further help his clients.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1575017",
+  "question": "McGregor Investment Management promotes itself as a fixed-income investment\nmanagement firm. The vast majority of the discretionary portfolios it manages are fixed-\nincome portfolios. McGregor does, however, manage a few portfolios utilizing a growth\nequity investment strategy, but the firm has no intention of ever promoting this strategy.\nUnder the Global Investment Performance Standards (GIPS), must these portfolios be\nincluded in a composite?",
+  "options": {
+   "A": "Yes, because the portfolios are discretionary.",
+   "B": "Yes, because the portfolios are managed to a widely recognized investment strategy.",
+   "C": "No, because the firm does not normally manage portfolios to a growth equity strategy and does not promote it to potential clients."
+  },
+  "correct": "B",
+  "explanation": "GIPS require all discretionary portfolios to be included in a composite. Thus, McGregor\nmust include the growth equity portfolios in a composite.\n(Module 92.1, LOS 92.c)"
+ },
+ {
+  "id": "1574695",
+  "question": "Randy Wesson is a research analyst for a large brokerage company following the chemical\nindustry. Wesson During a visit to Hunt Chemical Company, Wesson overhears two\nexecutives talking about an upcoming divestiture of a significant subsidiary, which has not\nbeen announced to the public. Wesson should:",
+  "options": {
+   "A": "not use the information.",
+   "B": "write a research report describing the possibility of a divestiture, but not mention that the company has decided to carry it out.",
+   "C": "inform his company\u2019s clients of the divestiture."
+  },
+  "correct": "A",
+  "explanation": "The information is material and nonpublic; therefore, Wesson must not act or cause\nothers to act on the information. To do so would violate Standard II(A) Material Nonpublic\nInformation.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1574798",
+  "question": "Which of the following are recommended procedures of compliance according to Standard\nI(D), Misconduct?",
+  "options": {
+   "A": "Conduct background checks on potential employees to ensure that they are of good character.",
+   "B": "Enroll employees in a continuing education program that would provide updates on required ethical behavior.",
+   "C": "Refer to the Professional Conduct Program for arbitration of disputes with other members or candidates."
+  },
+  "correct": "A",
+  "explanation": "According to Standard I(D) Misconduct - Procedures for Compliance: Members should\nencourage their employers to conduct background checks on potential employees to\nensure that they are of good character and eligible to work in the investment industry.\n(Module 91.2, LOS 91: I(D))"
+ },
+ {
+  "id": "1574887",
+  "question": "Nicholas Brynne, CFA, develops a trading model while working for CE Jones, an investment\nmanagement firm. By working on the model at home from his personal computer, Brynne is\nable to devote additional work hours. Although the trading model is successful, Brynne loses\nhis job in a company restructuring, and decides to start his own practice using the trading\nmodel. Nicholas is most likely:",
+  "options": {
+   "A": "in violation of the Standards because he did not have permission to build the trading model using his home computer.",
+   "B": "in violation of the Standards because he did not receive permission from his employer to keep or use the files after employment ended.",
+   "C": "not in violation of the Standards because the trading model was created using his home computer."
+  },
+  "correct": "B",
+  "explanation": "Brynne is in violation of Standard IV(A) \"Loyalty.\" Employer records include items stored in\nany medium including home computers.\n(Module 91.6, LOS 91: IV(A))"
+ },
+ {
+  "id": "1574863",
+  "question": "Compliance with the Standard concerning suitability least likely includes determining a\nclient's:",
+  "options": {
+   "A": "social habits and interests.",
+   "B": "liquidity needs.",
+   "C": "return objectives."
+  },
+  "correct": "A",
+  "explanation": "The procedures for compliance with Standard III(C) Suitability include determining a\nclient's investment objectives and constraints, but do not include gathering information\nabout the client's social habits and interests.\n(Module 91.5, LOS 91: III(C))"
+ },
+ {
+  "id": "1581526",
+  "question": "An analyst who is a member of CFA Institute has composed an introductory information\npacket for her new clients, which includes information on fees she receives for referring\nclients to other professionals and those she pays for having clients referred to her. With\nrespect to Standard VI(C), Referral Fees, this action:",
+  "options": {
+   "A": "exceeds the requirement of the Standard because she does not need to reveal the fees she pays to those that refer clients to her.",
+   "B": "is not addressed in the Standard.",
+   "C": "may not satisfy the Standard if such information is only provided after the receivers of the information have become clients."
+  },
+  "correct": "C",
+  "explanation": "Standard VI(C) says that a member must reveal information both on fees she receives for\nreferring clients to other professionals and those she pays for having clients referred to\nher before a prospect becomes a client. This allows the prospect to evaluate any partiality\nof a recommendation and the full cost of the services."
+ },
+ {
+  "id": "1574701",
+  "question": "Amanda Bradford is a security analyst at UpTrend, Inc. During a routine visit to a beauty\nsalon, she learns that a major cosmetic company, Lorean, is expected to present a\nrevolutionary formula for facial cream. Bradford begins writing a research report on the\ncompany. Bradford also calls Hillary Lang, CFA, an investment advisor at UpTrend, to inform\nher about the news and her forthcoming report. Lang buys Lorean stock for her clients'\nportfolios. Bradford's report, which is distributed two days later to all UpTrend clients, states\nthat given the ongoing research activity at Lorean, investors can expect some successful new\nproducts and a sharp increase in its share price.\n\nLang's actions least likely violate the Standard concerning:",
+  "options": {
+   "A": "fair dealing.",
+   "B": "material nonpublic information.",
+   "C": "independence and objectivity."
+  },
+  "correct": "C",
+  "explanation": "Relying on research from another analyst in the firm is acceptable under Standard I(B)\nIndependence and Objectivity. However, Lang violated Standard III(B) Fair Dealing by\nacting on Bradford's research for her own clients before it has been disseminated to all\nclients. .While the scenario given in this question does not suggest the information about\nLorean is nonpublic, Standard II(A) Material Nonpublic Information states that research\nrecommendations may be material because they have the potential to affect security\nprices. Thus Lang may have violated this Standard as well by acting on Bradford's report\nbefore it became public.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1581535",
+  "question": "A CFA Institute member puts the following statement on her resume: \"I passed each level of\nthe CFA exam on the first try.\" Is this a violation of Standard VII(B)?",
+  "options": {
+   "A": "Yes, because saying she passed exams on the first try is not appropriate.",
+   "B": "No, because it is a statement of fact.",
+   "C": "Yes, because she incorrectly refers to the CFA exam."
+  },
+  "correct": "B",
+  "explanation": "The statement is not a violation because it is a fact. However, the member must not go on\nto claim superior performance."
+ },
+ {
+  "id": "1581465",
+  "question": "Bill Valley has been working for Advisors, Inc., for several years, and he just joined CFA\nInstitute. Valley's sister just received a large bonus in the form of stock options in Zephyr,\nInc. Valley's sister knows nothing about financial assets and offers Valley a week at her\nholiday home each year in exchange for Valley monitoring Zephyr and the value of her stock\noptions. In order to comply with the Code and Standards, Valley needs to inform Advisors of:",
+  "options": {
+   "A": "both the use of the holiday home and his sister's options.",
+   "B": "nothing since no money is involved and it is a favor for a family member.",
+   "C": "the compensation in the form of the use of the holiday home only."
+  },
+  "correct": "A",
+  "explanation": "According to Standard IV(A), Loyalty to Employer, Valley must inform Advisors of his\noutside consultation even if it is not for monetary compensation. According to Standard\nVI(A), Disclosure of Conflicts, Valley must also disclose possible conflicts of interest, and\nhis sister's position qualifies."
+ },
+ {
+  "id": "1574830",
+  "question": "Nancy McCoy, CFA, is preparing a report on Gourmet Food Mart. As part of her research, she\ncontacts the company's contractors, suppliers, and competitors. McCoy is told by the CEO of\na major produce vendor that he is about to file a lawsuit against Gourmet Food Mart,\nseeking significant damages. McCoy incorporates this information into her research report,\nwhich projects a decline in profitability for Gourmet Food Mart due to the impending\nlitigation. According to the CFA Institute Standards of Professional Conduct, McCoy:",
+  "options": {
+   "A": "has violated the Standards by utilizing material nonpublic information.",
+   "B": "has violated the Standards by disseminating confidential information.",
+   "C": "has not violated any Standard."
+  },
+  "correct": "A",
+  "explanation": "According to Standard II(A) Material Nonpublic Information, an analyst must not act or\ncause others to act on material nonpublic information. Information about a significant\nlegal dispute is considered material, and in this case is nonpublic because the lawsuit has\nnot yet been filed and is not yet a matter of public record.\n(Module 91.3, LOS 91: II(A))"
+ },
+ {
+  "id": "1581474",
+  "question": "Which of the following statements is most correct concerning a member's obligation to his\nor her employer under the Code and Standards?\n\n     Consent from the employer is necessary to permit independent practice that",
+  "options": {
+   "A": "could result in compensation or other benefits in competition with the member's employer.",
+   "B": "Members are prohibited from making arrangements or preparations to go into competitive business before terminating their relationship with their employer.",
+   "C": "Members are prohibited from undertaking independent practice in competition with their employer."
+  },
+  "correct": "A",
+  "explanation": "There is no blanket prohibition against independent practice in competition with a\nmember's employer. The member must obtain permission from the employer. Members\nmay make preparations to go into a competitive business, but may not solicit clients of the\nemployer as long as members are still employed by the employer."
+ },
+ {
+  "id": "1581514",
+  "question": "Dwight Dawson, a CFA charterholder and portfolio manager at Ascott Investments, was\nrecently appointed to the investments committee at Brightwood College. He will receive no\ncompensation from Brightwood for serving on this committee. Another person at Ascott\nmanages part of Brightwood's endowment. Dawson does not inform Ascott's compliance\noffice of his involvement with Brightwood, because he does not believe doing so is\nnecessary.\n\nBrenda Hamilton, a CFA candidate, also works for Ascott as an investment analyst.\nProcedures established at Ascott prohibit personal trading in securities analyzed or\nrecommended by Ascott. One of these securities is Horizon, a telecommunications firm.\nHamilton buys 10 shares of Horizon for her infant son's trust account. She believes that\nreporting this purchase to Ascott's compliance officer is unnecessary because the amount of\nthe transaction is small and is not for her own personal account.\n\nDid Dawson or Hamilton's actions violate CFA Institute Standards of Professional Conduct?",
+  "options": {
+   "A": "Dawson: No, Hamilton: Yes.",
+   "B": "Dawson: Yes, Hamilton: Yes.",
+   "C": "Dawson: No, Hamilton: No."
+  },
+  "correct": "B",
+  "explanation": "Dawson violated Standard VI(A), Disclosure of Conflicts, by failing to inform Ascott of her\ninvolvement with Brightwood College. Dawson could reasonably be expected to be\ninvolved with investment policy decisions at Brightwood that could affect Ascott because\nAscott manages a portion of Brightwood's endowment. Hamilton also violated Standard\nVI(A), because she ignored a directive of her employer. Her purchase of Horizon stock has\nan appearance of impropriety. Hamilton could discuss the purchase of Horizon stock with\nher firm's compliance officer and request an exception to the prohibition against personal\ntrading in securities analyzed or recommended by Ascott."
+ },
+ {
+  "id": "1575018",
+  "question": "Viroqua DeSoto, CFA, is reading a discussion in an online forum about the construction and\npurpose of composites in performance reporting. She finds these statements from\nparticipants:\n\nStatement 1: The purpose of composites is to let investors know how well a firm has\nperformed managing different types of securities or investment strategies.\n\nStatement 2: A managed portfolio should have a performance history of at least one year\nbefore the firm assigns it to a composite.\n\nWith respect to both statements:",
+  "options": {
+   "A": "both are correct.",
+   "B": "both are incorrect.",
+   "C": "only one is correct."
+  },
+  "correct": "C",
+  "explanation": "DeSoto should agree with Statement 1 but disagree with Statement 2. Reporting on the\nperformance of composites gives clients and prospects information about the firm's\nsuccess in managing various types of securities or investment styles. The firm should\nidentify which composite each managed portfolio will be included in before the portfolio's\nperformance is known, to prevent the firm from including portfolios selectively and\nartificially creating composites with superior returns.\n(Module 92.1, LOS 92.c)"
+ },
+ {
+  "id": "1574846",
+  "question": "While trading on behalf of a pension account, an analyst receives special research reports\nfrom the brokerage firm with whom she is doing the trades. Such an activity is:",
+  "options": {
+   "A": "a violation of both Standard III(A), Loyalty, Prudence, and Care, and the Code of Ethics.",
+   "B": "a violation of only The Code of Ethics.",
+   "C": "not in itself a violation of Standard III(A), Loyalty, Prudence, and Care, nor the Code of Ethics."
+  },
+  "correct": "C",
+  "explanation": "An analyst can receive research from a brokerage firm with whom she is trading on behalf\nof a client. The analyst should inform the client of the arrangement. The analyst is more\nlikely to violate Standard III(A) by obtaining non-research services or, worse yet, personal\nbenefits from the brokerage firm.\n(Module 91.4, LOS 91: III(A))"
+ },
+ {
+  "id": "1581537",
+  "question": "All of the following statements in promotion of your services are in violation of CFA Institute\nStandards of Practice handbook EXCEPT:",
+  "options": {
+   "A": "based upon my research, you will achieve a 20% compound annual rate of return on small cap stocks over the next 5 years.",
+   "B": "I guarantee under my management that you will receive returns in excess of the market index average.",
+   "C": "I passed Level II of the CFA Program in 2003."
+  },
+  "correct": "C",
+  "explanation": "Candidates may refer to the CFA level(s) passed and the associated dates as long as a\npartial designation is not implied. They may not guarantee or promise a given level of\nreturn."
+ },
+ {
+  "id": "1574683",
+  "question": "Roger Smith, CFA, has been invited to join a group of analysts in touring the riverboats of\nRiver Casino Corp. For the tour, River Casino has arranged chartered flights from casino to\ncasino since commercial flight schedules are not practical for the group's time schedule.\nRiver Casino has also arranged to pay for the analysts' lodging for the three nights of the\ntour. According to CFA Institute Standards of Professional Conduct, Smith:",
+  "options": {
+   "A": "may accept the arrangements as they are.",
+   "B": "may accept the flight but is required to pay for his lodging.",
+   "C": "is required to pay for his flight and lodging."
+  },
+  "correct": "A",
+  "explanation": "Because the itinerary required charter flights due to a lack of commercial transportation,\nRiver Casino can appropriately provide them. While Standard I(B) Independence and\nObjectivity recommends that members pay their own room costs, it is not required and it\nis not unusual for members to accept accommodations.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1581464",
+  "question": "Which of the following statements is most correct under the Code and Standards?",
+  "options": {
+   "A": "CFA Institute members are prohibited from undertaking independent practice in competition with their employer. Consent from the employer is necessary to permit independent practice that",
+   "B": "could result in compensation or other benefits in competition with the member's employer.",
+   "C": "Members are prohibited from making arrangements or preparations to go into competitive business before terminating their relationship with their employer."
+  },
+  "correct": "B",
+  "explanation": "Members are not prohibited from making arrangements or preparations to go into\ncompetitive business before terminating their relationship with their employer. CFA\nInstitute members are not prohibited from undertaking independent practice in\ncompetition with their employer provided they have consent from their employer.\nMembers must provide notification to their employer describing the types of services to\nbe rendered, the expected duration, and compensation for the services."
+ },
+ {
+  "id": "1581483",
+  "question": "Chris Babcock, CFA, a portfolio manager for a large Texas investment firm, has been offered\ncompensation in addition to what her firm pays her. The offer is from one of her clients and\nthe additional compensation will be based on her yearly performance in excess of the\nmarket index. Babcock should:",
+  "options": {
+   "A": "make written disclosure to all parties involved before she accepts this offer.",
+   "B": "make written disclosure to her other clients before she accepts this offer.",
+   "C": "turn down the offer because it represents a clear conflict between this client and Babcock's other clients."
+  },
+  "correct": "A",
+  "explanation": "Standard IV(B), Additional Compensation Arrangements, applies in this situation. Standard\nIV(B) states, \"No gifts, benefits, compensation, or consideration are to be accepted with\nmay create a conflict of interest with the employer's interest unless written consent is\nreceived from all parties.\"\nThe key words here are \"written consent\" - members must obtain written consent because\nsuch arrangements may affect loyalties and objectivity and create potential conflicts of\ninterest."
+ },
+ {
+  "id": "1581442",
+  "question": "Ed Staples, CFA, manages a pension fund sponsored by Hill Corporation. The Code and\nStandards most likely require Staples to:",
+  "options": {
+   "A": "act solely in the interest of the ultimate beneficiaries.",
+   "B": "support the sponsor's management during proxy fights.",
+   "C": "base investment decisions on each beneficiary\u2019s return requirements and risk tolerance."
+  },
+  "correct": "A",
+  "explanation": "Standard III(A) Loyalty, Prudence, and Care requires members and candidates who\nmanage investment funds to act in the interest of the beneficiaries. However, the Standard\nstates that fund managers' investment decisions are not required to be based on the\ninvestment needs of each fund investor, but rather should benefit the investors as a\nwhole. In voting proxies, the beneficiaries' interest must prevail over management's\ninterest."
+ },
+ {
+  "id": "1581436",
+  "question": "The term \"material\" in the phrase \"material nonpublic information\" refers to information\nthat is likely to affect significantly the market price of the issuing company's securities or\nthat:",
+  "options": {
+   "A": "is acquired by the financial analyst from a special or confidential relationship with the issuing company.",
+   "B": "is likely to be considered important by reasonable investors in determining whether to trade a particular security.",
+   "C": "is derived by the financial analyst from direct communication with an issuing company's management."
+  },
+  "correct": "B",
+  "explanation": "An item of information is material if its disclosure would be likely to have an impact on the\nprice of a security, or if reasonable investors would want to know the information before\ninvesting."
+ },
+ {
+  "id": "1574677",
+  "question": "Alpha Advisors, Inc., is an investment management firm with a client base that ranges from\nindividuals to large foundations. Which of the following firm policies is least appropriate if\nAlpha adopts the Code and Standards? Alpha:",
+  "options": {
+   "A": "regularly calls larger accounts first after changes in investment recommendations have been faxed to all clients.",
+   "B": "excludes client accounts of family members of employees from participating in IPOs.",
+   "C": "monitors the personal trading activity of firm personnel and requires them to pre-clear personal trades."
+  },
+  "correct": "A",
+  "explanation": "Standard III(B) Fair Dealing requires that all clients be treated fairly. Members and\ncandidates should not discriminate against any client. A family member who is a fee-\npaying client should not be treated differently from other clients when taking investment\naction. Following up changes in recommendations with phone calls to larger clients is not\na violation of the Standard if the changes have been disseminated fairly.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1574680",
+  "question": "Linda Schultz, CFA, is an investment advisor at Wheaton Investments. Schultz has been\nemployed there for five years, and has never signed a \"non-compete\" clause. While at\nWheaton, Schultz makes preparations to set up her own money management firm. She does\nnot contact any existing clients before leaving Wheaton and does not take any firm records\nor files. After her resignation becomes effective, Schultz replicates a list of former clients\nfrom memory and uses public sources to get their contact information. She then contacts\nthese former clients and solicits their business for her new firm. Has Schultz violated any\nCFA Institute Standards?",
+  "options": {
+   "A": "No. Schultz is in compliance with CFA Institute Standards.",
+   "B": "Yes. Schultz may not contact clients of her old firm.",
+   "C": "Yes. Schultz is permitted to notify clients that she has left her old firm, but she cannot encourage them to come with her to the new firm."
+  },
+  "correct": "A",
+  "explanation": "Schultz continued to act in her employer's best interest while still employed and did not\nengage in any activities that would conflict with this duty until her resignation became\neffective. Standard IV(A) Loyalty does not prohibit her from contacting clients from her\nprevious firm if she does not get the contact information from the records of her former\nemployer or violate an applicable non-compete agreement.\n(Module 91.1, LOS 91.b)"
+ },
+ {
+  "id": "1581459",
+  "question": "Greg Stiles, CFA, may withhold from CFA Institute information about a client acquired in the\nregular performance of his duties:",
+  "options": {
+   "A": "for neither of the reasons listed.",
+   "B": "only if Stiles has a special confidentiality agreement with the client.",
+   "C": "only if Stiles is a relative of the client."
+  },
+  "correct": "A",
+  "explanation": "According to Standard III(E), Preservation of Confidentiality, Stiles may not withhold\ninformation under any of the listed reasons. The reason is that CFA Institute will keep the\ninformation confidential."
+ },
+ {
+  "id": "1581511",
+  "question": "Phil Trobb, CFA, is preparing a purchase recommendation on Aneas Lumber for his research\nfirm. Which of the following least likely represents a conflict of interest that Trobb should\ndisclose in his report?",
+  "options": {
+   "A": "Trobb's research firm has a large stake of ownership in Aneas.",
+   "B": "Trobb's cousin repairs machines for Aneas.",
+   "C": "Aneas hires Trobb as a consultant to analyze Aneas' financial statements."
+  },
+  "correct": "B",
+  "explanation": "Standard VI(A) Disclosure of Conflicts defines what constitutes a conflict of interest with\nregard to clients, prospective clients, and employers. All of these represent potential\nconflicts of interest with the exception of the cousin working for Aneas Lumber in a job\nthat is unrelated to the Aneas' financing."
+ },
+ {
+  "id": "1581450",
+  "question": "A money management firm has the following policy concerning new recommendations:\nWhen a new recommendation is made, each portfolio manager estimates the likely\ntransaction size for each of their clients. Clients are notified of the new recommendation in\nthe order of their estimated transaction size\u2014largest first. All clients have signed a form\nwhere they acknowledge and consent to this allocation procedure. With respect to Standard\nIII(B), Fair Dealing, this is:",
+  "options": {
+   "A": "not a violation because the clients have signed the consent form.",
+   "B": "a violation of the standard.",
+   "C": "not a violation because the clients are aware of the policy."
+  },
+  "correct": "B",
+  "explanation": "Such a policy is a violation of the Standard and client acknowledgement and/or consent\ndoes not change that fact."
+ },
+ {
+  "id": "1574989",
+  "question": "Stephanie Orange, Level II CFA candidate, posts blogs for her exam study group three days\nafter the exam to vent her frustrations over the exam. However, to avoid disclosing what\nwas actually on the exam, she only discusses topic areas she thought would be on the exam\nthat were not. She writes \"...the topics selected were unnecessarily obscure. Important items\nlike FCF, DDM, and Residual Income were ignored completely...\" Orange is most likely:",
+  "options": {
+   "A": "in violation of the Code and Standards for providing confidential information about the exam.",
+   "B": "not in violation because the information about the actual exam contents was posted only after the conclusion of the exam.",
+   "C": "not in violation because the information was only about what was not on the exam."
+  },
+  "correct": "A",
+  "explanation": "Standard VII(A) Conduct as Participants in CFA Institute Programs prohibits members and\ncandidates from providing confidential information about the exam \u2013 even after the\nconclusion of the exam. Examples include broad topical areas tested or not tested.\n(Module 91.9, LOS 91: VII(A))"
+ },
+ {
+  "id": "1574678",
+  "question": "Chuck Hill, CFA, the financial manager of Niseron Corp., has just learned that Niseron's\nquarterly net income will fall well short of consensus analyst expectations. Hill decides that\nhe should immediately notify analysts covering Niseron of this negative development. He\ncalls two particular analysts first who have followed Niseron stock for several years and have\nalerted Hill to important developments at competing firms. Failing to notify these analysts\nmight damage Hill's ability to monitor his competition, to the detriment of his own\nshareholders. Under CFA Institute's Code and Standards, Hill should most appropriately:",
+  "options": {
+   "A": "notify no analysts until he is ready to issue the final numbers for the quarter.",
+   "B": "notify the two analysts first because their information adds value for Niseron\u2019s shareholders.",
+   "C": "issue a press release regarding Niseron\u2019s earnings prior to calling analysts."
+  },
+  "correct": "C",
+  "explanation": "Issuing a press release is the best way to achieve fair public dissemination. Notifying any\nspecific analysts first is a violation of Standard III(B) Fair Dealing, regardless of any help\nthey may have provided in the past. (Module 91.1, LOS 91.b)"
+ }
+];

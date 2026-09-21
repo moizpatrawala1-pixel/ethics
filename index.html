@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CFA Ethics & GIPS Quiz — 150 Questions</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --accent: #3b82f6;
+    --correct: #22c55e;
+    --incorrect: #ef4444;
+    --correct-bg: rgba(34,197,94,0.12);
+    --incorrect-bg: rgba(239,68,68,0.12);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 24px 16px;
+  }
+  .app { width: 100%; max-width: 680px; }
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .progress-bar {
+    height: 6px;
+    background: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    transition: width 0.25s ease;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .qtext {
+    font-size: 17px;
+    line-height: 1.55;
+    white-space: pre-line;
+    margin-bottom: 22px;
+  }
+  .options { display: flex; flex-direction: column; gap: 10px; }
+  .option {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    text-align: left;
+    background: #16213a;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 15px;
+    line-height: 1.45;
+    color: var(--text);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    width: 100%;
+    font-family: inherit;
+  }
+  .option:hover:not(:disabled) { border-color: var(--accent); }
+  .option:disabled { cursor: default; }
+  .option .letter {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .option.correct { border-color: var(--correct); background: var(--correct-bg); }
+  .option.correct .letter { background: var(--correct); color: #05210f; }
+  .option.incorrect { border-color: var(--incorrect); background: var(--incorrect-bg); }
+  .option.incorrect .letter { background: var(--incorrect); color: #2a0505; }
+  .feedback {
+    margin-top: 20px;
+    padding: 16px 18px;
+    border-radius: 10px;
+    font-size: 14.5px;
+    line-height: 1.55;
+    white-space: pre-line;
+  }
+  .feedback.correct { background: var(--correct-bg); border: 1px solid var(--correct); }
+  .feedback.incorrect { background: var(--incorrect-bg); border: 1px solid var(--incorrect); }
+  .feedback .verdict { font-weight: 700; margin-bottom: 6px; display: block; }
+  .feedback.correct .verdict { color: var(--correct); }
+  .feedback.incorrect .verdict { color: var(--incorrect); }
+  .nextbtn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .nextbtn:hover { background: #2563eb; }
+  .results { text-align: center; padding: 20px 0; }
+  .score-big { font-size: 56px; font-weight: 800; margin: 8px 0; }
+  .score-pct { font-size: 20px; color: var(--muted); margin-bottom: 24px; }
+  .restart-btn {
+    margin-top: 12px;
+    padding: 14px 28px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .restart-btn:hover { background: #2563eb; }
+  .breakdown {
+    text-align: left;
+    margin-top: 24px;
+    max-height: 340px;
+    overflow-y: auto;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+  .breakdown-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 4px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .breakdown-item .qnum { color: var(--muted); }
+  .breakdown-item .mark.correct { color: var(--correct); font-weight: 700; }
+  .breakdown-item .mark.incorrect { color: var(--incorrect); font-weight: 700; }
+  h1.title { font-size: 20px; margin: 0 0 4px 0; }
+</style>
+</head>
+<body>
+<div class="app">
+  <h1 class="title">CFA Ethics &amp; GIPS Quiz</h1>
+  <div class="topbar">
+    <span id="qcounter">Question 1 of 150</span>
+    <span id="scoretracker">Score: 0 / 0</span>
+  </div>
+  <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+
+  <div class="card" id="quizCard">
+    <div class="qtext" id="qtext"></div>
+    <div class="options" id="options"></div>
+    <div id="feedbackArea"></div>
+  </div>
+
+  <div class="card" id="resultsCard" style="display:none;">
+    <div class="results">
+      <div style="font-size:15px;color:var(--muted);">Quiz complete</div>
+      <div class="score-big" id="finalScore">0 / 150</div>
+      <div class="score-pct" id="finalPct">0%</div>
+      <button class="restart-btn" id="restartBtn">Restart Quiz</button>
+      <div class="breakdown" id="breakdown"></div>
+    </div>
+  </div>
+</div>
+
+<script src="questions.js"></script>
+<script>
+let current = 0;
+let score = 0;
+let answered = false;
+let history = [];
+
+const qcounter = document.getElementById('qcounter');
+const scoretracker = document.getElementById('scoretracker');
+const progressFill = document.getElementById('progressFill');
+const qtext = document.getElementById('qtext');
+const optionsEl = document.getElementById('options');
+const feedbackArea = document.getElementById('feedbackArea');
+const quizCard = document.getElementById('quizCard');
+const resultsCard = document.getElementById('resultsCard');
+
+function renderQuestion() {
+  answered = false;
+  feedbackArea.innerHTML = '';
+  const q = QUIZ_DATA[current];
+  qcounter.textContent = `Question ${current + 1} of ${QUIZ_DATA.length}`;
+  scoretracker.textContent = `Score: ${score} / ${history.length}`;
+  progressFill.style.width = `${(current / QUIZ_DATA.length) * 100}%`;
+  qtext.textContent = q.question;
+  optionsEl.innerHTML = '';
+
+  ['A','B','C'].forEach(letter => {
+    const btn = document.createElement('button');
+    btn.className = 'option';
+    btn.innerHTML = `<span class="letter">${letter}</span><span>${q.options[letter]}</span>`;
+    btn.addEventListener('click', () => selectAnswer(letter));
+    optionsEl.appendChild(btn);
+  });
+}
+
+function selectAnswer(letter) {
+  if (answered) return;
+  answered = true;
+  const q = QUIZ_DATA[current];
+  const isCorrect = letter === q.correct;
+  if (isCorrect) score++;
+  history.push({ correct: isCorrect });
+
+  const buttons = optionsEl.querySelectorAll('.option');
+  buttons.forEach((btn, idx) => {
+    const btnLetter = ['A','B','C'][idx];
+    btn.disabled = true;
+    if (btnLetter === q.correct) {
+      btn.classList.add('correct');
+    } else if (btnLetter === letter && !isCorrect) {
+      btn.classList.add('incorrect');
+    }
+  });
+
+  const fb = document.createElement('div');
+  fb.className = 'feedback ' + (isCorrect ? 'correct' : 'incorrect');
+  fb.innerHTML = `<span class="verdict">${isCorrect ? '✓ Correct' : '✗ Incorrect — correct answer: ' + q.correct}</span>${q.explanation}`;
+  feedbackArea.appendChild(fb);
+
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'nextbtn';
+  nextBtn.textContent = (current === QUIZ_DATA.length - 1) ? 'See Results' : 'Next Question';
+  nextBtn.addEventListener('click', () => {
+    current++;
+    if (current >= QUIZ_DATA.length) {
+      showResults();
+    } else {
+      renderQuestion();
+    }
+  });
+  feedbackArea.appendChild(nextBtn);
+
+  scoretracker.textContent = `Score: ${score} / ${history.length}`;
+}
+
+function showResults() {
+  quizCard.style.display = 'none';
+  resultsCard.style.display = 'block';
+  progressFill.style.width = '100%';
+  qcounter.textContent = `Question ${QUIZ_DATA.length} of ${QUIZ_DATA.length}`;
+
+  document.getElementById('finalScore').textContent = `${score} / ${QUIZ_DATA.length}`;
+  const pct = Math.round((score / QUIZ_DATA.length) * 100);
+  document.getElementById('finalPct').textContent = `${pct}%`;
+
+  const breakdown = document.getElementById('breakdown');
+  breakdown.innerHTML = '';
+  history.forEach((h, i) => {
+    const row = document.createElement('div');
+    row.className = 'breakdown-item';
+    row.innerHTML = `<span class="qnum">Question ${i + 1}</span><span class="mark ${h.correct ? 'correct' : 'incorrect'}">${h.correct ? 'Correct' : 'Incorrect'}</span>`;
+    breakdown.appendChild(row);
+  });
+}
+
+document.getElementById('restartBtn').addEventListener('click', () => {
+  current = 0;
+  score = 0;
+  history = [];
+  resultsCard.style.display = 'none';
+  quizCard.style.display = 'block';
+  renderQuestion();
+});
+
+renderQuestion();
+</script>
+</body>
+</html>
